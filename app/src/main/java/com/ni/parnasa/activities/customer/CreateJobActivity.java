@@ -614,12 +614,17 @@ public class CreateJobActivity extends AppCompatActivity implements View.OnClick
         param.add("job_remarks");
         value.add(edtJobNotes.getText().toString().trim());
 
+        MyLogs.e("TasaAG", "VALUE " + value);
+
+
         /*MyLogs.e("TAG", "PARAM " + param);
         MyLogs.e("TAG", "VALUE " + value);
 */
         new ParseJSON(mContext, BaseUrl.createJob, param, value, CommonPojo.class, new ParseJSON.OnResultListner() {
             @Override
             public void onResult(boolean status, Object obj) {
+                MyLogs.e("tddoasr", String.valueOf(status));
+
                 if (status) {
                     CommonPojo pojo = (CommonPojo) obj;
 
@@ -628,15 +633,14 @@ public class CreateJobActivity extends AppCompatActivity implements View.OnClick
                         intent.putExtra("refreshTabNo", 0);
                         sendBroadcast(intent);
                     }
-
                     addEventIntoGoogleCalendar("PickMeAppJob", edtJobDetails.getText().toString().trim(), calTest.getTimeInMillis(), (calTest.getTimeInMillis() + (1000 * 60 * 60 * 1))); //event end after 1 hours
-
                     Toast.makeText(mContext, pojo.getMessage(), Toast.LENGTH_SHORT).show();
-
+                    MyLogs.e("toast",pojo.getMessage());
                     onBackPressed();
-
                 } else {
                     Toast.makeText(mContext, obj.toString(), Toast.LENGTH_SHORT).show();
+                    MyLogs.e("error",obj.toString());
+                    MyLogs.e("error", String.valueOf(status));
                 }
             }
         });

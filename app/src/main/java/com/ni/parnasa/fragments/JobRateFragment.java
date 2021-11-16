@@ -120,15 +120,16 @@ public class JobRateFragment extends Fragment {
 //                    });
 
 
-    /*                double basicRates = Double.parseDouble(st_basicrate);
-                    basicRates = basicRates / Double.parseDouble(PrefUtils.with(mActivity).readString(PrefConstant.CURRENT_PRICE));
-                    st_basicrate = String.format("%.2f", basicRates);
+//                    double basicRates = Double.parseDouble(st_basicrate);
+//                    basicRates = basicRates / Double.parseDouble(PrefUtils.with(mActivity).readString(PrefConstant.CURRENT_PRICE));
+//                    st_basicrate = String.format("%.2f", basicRates);
+//
+//                    basicRates = Double.parseDouble(st_hourrate);
+//                    basicRates = basicRates / Double.parseDouble(PrefUtils.with(mActivity).readString(PrefConstant.CURRENT_PRICE));
+//                    st_hourrate = String.format("%.2f", basicRates);
 
-                    basicRates = Double.parseDouble(st_hourrate);
-                    basicRates = basicRates / Double.parseDouble(PrefUtils.with(mActivity).readString(PrefConstant.CURRENT_PRICE));
-                    st_hourrate = String.format("%.2f", basicRates);
-*/
 
+                    parseDouble(st_basicrate);
 
                     new apiCallForSetRate().execute();
                 }
@@ -299,6 +300,7 @@ public class JobRateFragment extends Fragment {
                 MyLogs.e("URL", BaseUrl.URL + "Job_rates/get_rate");
                 MyLogs.e("signup", String.valueOf(request_main));
 
+
                 RequestBody body = RequestBody.create(JSON, request_main.toString());
 
                 Request request = new Request.Builder()
@@ -347,15 +349,11 @@ public class JobRateFragment extends Fragment {
                         String basic_rate = data.getString("basic_rate");
 
 
-                        MyLogs.e("mydesimal", hour_rate);
-                        MyLogs.e("mydesimal", tax_rate);
-                        MyLogs.e("mydesimal", basic_rate);
+                        MyLogs.e("mydesimal",basic_rate);
+                        MyLogs.e("mydesimal",hour_rate);
+                        MyLogs.e("mydesimal",tax_rate);
 
 
-//                        Float litersOfPetrol = Float.parseFloat(tax_rate);
-//                        DecimalFormat df = new DecimalFormat("0.00");
-//                        df.setMaximumFractionDigits(2);
-//                        tax_rate = df.format(litersOfPetrol);
 
 
  /*                       double basicRates = Double.parseDouble(basic_rate);
@@ -398,6 +396,9 @@ public class JobRateFragment extends Fragment {
 //                            }
 //                        });
 
+
+                        parseDouble(basic_rate);
+
                         edt_tax_rate.setText(tax_rate);
                         et_basicrate.setText(basic_rate);
                         et_hourrate.setText(hour_rate);
@@ -433,7 +434,6 @@ public class JobRateFragment extends Fragment {
             }
         });
     }
-
     @Override
     public void onDestroy() {
         if (facebookAdLoader != null) {
@@ -441,4 +441,12 @@ public class JobRateFragment extends Fragment {
         }
         super.onDestroy();
     }
+
+    private double parseDouble(String val){
+        if(val== null || val.isEmpty())
+            return 0.0;
+        else
+            return Double.parseDouble(val);
+    }
+
 }
