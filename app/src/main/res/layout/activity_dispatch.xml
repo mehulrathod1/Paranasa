@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_white">
+
+    <RelativeLayout
+        android:id="@+id/rel_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:src="@drawable/blue_back_button" />
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/paranasa_logo_icon_512x512px" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/upgrade"
+        android:textAllCaps="true"
+        android:textColor="@color/c_blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_sign_in"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/msg_upgrade"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_up"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#4940FF"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:text="@string/upgrade_now"
+        android:textColor="#fff" />
+
+
+    <LinearLayout
+        android:id="@+id/adMobView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" />
+
+
+</RelativeLayout>

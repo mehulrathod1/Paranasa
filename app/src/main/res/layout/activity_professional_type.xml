@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:rotationY="@integer/locale_mirror_flip"
+            android:src="@drawable/blue_back_button" />
+
+        <RelativeLayout
+            android:id="@+id/rel_pro"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_below="@+id/img_back"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="8dp"
+                android:src="@drawable/sole_worker_icon" />
+
+            <LinearLayout
+                android:id="@+id/len_worker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/drw_sky"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="80dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/lbl_professional_sole"
+                    android:textAllCaps="true"
+                    android:textColor="@color/c_white"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:gravity="center"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/lbl_choose"
+                    android:textColor="@color/c_white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_cus"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/rel_pro"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="8dp"
+                android:src="@drawable/employer_agent_icon" />
+
+            <LinearLayout
+                android:id="@+id/len_company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/drw_blue"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="60dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/lbl_professional_agent"
+                    android:textAllCaps="true"
+                    android:textColor="@color/c_white"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:gravity="center"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/lbl_choose"
+                    android:textColor="@color/c_white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

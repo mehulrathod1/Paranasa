@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_verification_code">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_back"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:padding="10dp"
+                    android:rotationY="@integer/locale_mirror_flip"
+                    android:src="@drawable/blue_back_button"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/img_logo"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/paranasa_logo_icon_512x512px" />
+
+
+                <TextView
+                    android:id="@+id/txt_sign_in"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_logo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/verification_code"
+                    android:textAllCaps="true"
+                    android:textColor="@color/c_blue"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:gravity="start"
+                android:id="@+id/profetionlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:textAlignment="viewStart"
+                    android:id="@+id/txt_pass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/sms_verification_code"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/v_sms"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edt_bg"
+                    android:hint="@string/add_sms_verification_code"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:textAlignment="viewStart" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/btn_submit_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@color/c_btn_blue"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:text="@string/submit"
+                        android:textColor="@color/c_white" />
+
+                    <TextView
+                        android:id="@+id/txtResendSms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="15dp"
+                        android:gravity="center"
+                        android:text="@string/v_code"
+                        android:textColor="@color/c_btn_blue"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="15dp"
+                    android:gravity="center"
+                    android:text="@string/or"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/email_verification_code"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/v_email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edt_bg"
+                android:hint="@string/add_email_verification_code"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textAlignment="viewStart" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/sumit_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@color/c_btn_blue"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:text="@string/submit"
+                    android:textColor="@color/c_white" />
+
+                <TextView
+                    android:id="@+id/txtResendEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="15dp"
+                    android:gravity="center"
+                    android:text="@string/ve_code"
+                    android:textColor="@color/c_btn_blue"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

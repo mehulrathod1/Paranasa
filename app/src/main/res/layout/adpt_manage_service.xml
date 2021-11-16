@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9">
+
+            <TextView
+                android:id="@+id/txtServiceName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service name"
+                android:textColor="@color/c_btn_blue"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imgEdit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="6dp"
+            android:src="@drawable/ic_edit_blue" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtServicePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:text="$0/hr"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvKeyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

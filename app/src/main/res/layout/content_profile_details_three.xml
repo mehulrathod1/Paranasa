@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_profile_details_three">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:padding="10dp"
+        android:src="@drawable/blue_back_button" />
+
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/paranasa_logo_icon_512x512px" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/img_logo"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="I Accept: "
+                android:textStyle="bold"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray"
+                android:layout_height="0.5dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:text="Cash"
+                android:id="@+id/cash"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:text="PayPal"
+                android:id="@+id/paypal"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:text="Wallet"
+                android:id="@+id/wallet"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:text="Other"
+                android:id="@+id/other"
+                android:layout_marginTop="10dp"
+
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray"
+                android:layout_height="0.5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center"
+                    android:text="My"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="20sp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/paypal"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center"
+                    android:text="ID : "
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textEmailAddress"
+                android:textSize="16sp"
+                android:gravity="top"
+                android:id="@+id/paypal_id"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edt_bg"
+                android:hint="info@you.com"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:text="If you also accept PayPal, passengers will able to pay you through PayPal. "
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray"
+                android:layout_height="0.5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="3"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="match_parent">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:textSize="18sp"
+                        android:id="@+id/silver"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:gravity="center|left"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:background="@drawable/silver"
+
+                        android:layout_height="30dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2.4"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Silver"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/c_btn_blue"
+
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="$50, basic, with minimum basic, with standard option, Suitable for individual professional. "
+                        android:textSize="18sp"
+
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@color/c_btn_blue"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/round_bg_pro"
+                    android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/white"
+                android:text="Offer: $50 for 1 year(2 months free)" />
+            </LinearLayout>
+                <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@color/gray"
+                android:layout_height="0.5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="3"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="match_parent">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:textSize="18sp"
+                        android:id="@+id/gold"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:gravity="center|left"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:background="@drawable/gold"
+
+                        android:layout_height="30dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2.4"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Gold"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/c_btn_blue"
+
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="$200, basic, with minimum basic, with standard option, Suitable for individual professional. "
+                        android:textSize="18sp"
+
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@color/c_btn_blue"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/round_bg_pro"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@android:color/white"
+                    android:text="Offer: $200 for 1 year(2 months free)" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@color/gray"
+                android:layout_height="0.5dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:gravity="center|left"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btn_savepay"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:layout_marginBottom="30dp"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/len_term"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/c_btn_blue"
+                        android:text="Save and pay"
+                        android:textColor="@color/c_white"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/txt_company"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:textColor="@color/c_btn_blue"
+                        android:text="2/2"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_toRightOf="@+id/btn_submit"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

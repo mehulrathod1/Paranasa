@@ -1,0 +1,97 @@
+private void connectWebSocket() {
+        URI uri;
+        try {
+            uri = new URI(trackingUrl);
+            // uri = new URI("ws://162.144.134.38:5000");
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+            return;
+        }
+
+        mWebSocketClient = new WebSocketClient(uri) {
+            @Override
+            public void onOpen(ServerHandshake serverHandshake) {
+                Log.e("Websocket", "Opened");
+                String messageString;
+                //Log.e("DriverTrackingActivity", "onOpen " + PrefsUtil.with(DriverTrackingActivity.this).readString("lastSendId"));
+                if (TextUtils.isEmpty(PrefsUtil.with(DriverTrackingActivity.this).readString("lastSendId"))) {
+                    messageString = rideId + "&&&" + "0";
+                } else {
+                    messageString = rideId + "&&&" + PrefsUtil.with(DriverTrackingActivity.this).readString("lastSendId");
+                }
+                mWebSocketClient.send(messageString);
+                //mWebSocketClient.send("Hello from " + Build.MANUFACTURER + " " + Build.MODEL);
+            }
+
+            @Override
+            public void onMessage(String s) {
+                final String message = s;
+                //Log.e("Websocket", "onMessage " + s);
+
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            JSONObject obj = new JSONObject(message);
+                            Log.e("DriverTrackingActivity", "Message Received");
+                            if (obj.getBoolean("status")) {
+                                if (!obj.getBoolean("stop")) {
+                                    responseArray.add(obj.toString());
+                                    //Log.e("DriverTrackingActivity", "Response Size : " + responseArray.size());
+                                    DriverTrackingActivity.this.runOnUiThread(new Runnable() {
+                                        @Override
+                                        public void run() {
+
+                                            if (animationFinished) {
+                                                if (animationCounter <= responseArray.size() - 1) {
+                                                    decodeResult(responseArray.get(animationCounter));
+                                                }
+                                            }
+
+                                        }
+                                    });
+                                } else {
+                                    mWebSocketClient.close();
+                                }
+                            }
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+
+                    }
+                });
+            }
+
+            @Override
+            public void onClose(int i, String s, boolean b) {
+                Log.e("Websocket", "Closed " + b + "int : "+i);
+                if (i != -1) {
+                    if (!backPressed) {
+                        connectWebSocket();
+                    }
+                }
+            }
+
+            @Override
+            public void onError(Exception e) {
+                Log.e("Websocket", "Error " + e.getMessage());
+            }
+        };
+        try {
+            SSLContext sslContext = SSLContext.getDefault();
+            mWebSocketClient.setWebSocketFactory(new DefaultSSLWebSocketClientFactory(sslContext));
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        mWebSocketClient.connect();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        try {
+            mWebSocketClient.close();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }

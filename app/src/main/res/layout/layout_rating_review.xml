@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="@string/rating_and_review"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="@string/add_review"
+            android:textColor="@color/colorTitle"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/edtReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:imeOptions="actionDone"
+            android:lines="3"
+            android:textAlignment="viewStart"
+            android:gravity="start|top"
+            android:paddingBottom="4dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="4dp"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingStart="8dp"
+            android:text="@string/add_rating"
+            android:textColor="@color/colorTitle"
+            android:textSize="12sp" />
+
+        <RatingBar
+            android:id="@+id/ratingGiven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:progressTint="@color/c_btn_blue"
+            android:stepSize="1.0" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+
+            <TextView
+                android:id="@+id/txtButtonSubmit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:background="@color/c_btn_blue"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="@string/submit"
+                android:textAllCaps="true"
+                android:textColor="@color/c_white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtButtonCancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_weight="1"
+                android:background="@color/colorTitle"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="@string/cancel"
+                android:textAllCaps="true"
+                android:textColor="@color/c_white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

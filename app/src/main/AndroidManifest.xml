@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ni.parnasa">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/paranasa_logo_round_512x512"
+        android:roundIcon="@drawable/paranasa_logo_round_512x512"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:resizeableActivity="false"
+        android:name="com.ni.parnasa.utils.ApplicationController"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning,LockedOrientationActivity">
+        <activity android:name="com.ni.parnasa.activities.customer.ViewInvoiceNewActivity"></activity>
+        <activity android:name="com.ni.parnasa.activities.ProfileNewActivity" />
+        <activity android:name="com.ni.parnasa.activities.LanguageSelectActivity" />
+        <activity
+            android:name="com.ni.parnasa.activities.DefaultNavSystemActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.ni.parnasa.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <meta-data
+            android:name="io.sentry.dsn"
+            android:value="https://ae165296e82b4eda8013e06056f8c9c6@o1058122.ingest.sentry.io/6045478" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3581105679226075~3450703690"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" /> <!-- The API key for Google Maps-based APIs. -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/fb_key" />
+        <meta-data
+            android:name="firebase_crash_collection_enabled"
+            android:value="false" />
+
+        <service android:name="com.ni.parnasa.utils.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!--
+ <service android:name=".utils.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        -->
+        <activity
+            android:name="com.ni.parnasa.activities.ProfessionalSignupStepFour"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ni.parnasa.activities.customer.CustomerHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ni.parnasa.activities.customer.LoginActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.customer.SignUpActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.ProfessionalType"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.customer.SettingScreen"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.UserType"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.JobRateActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.DispatchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ni.parnasa.activities.FilterScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ni.parnasa.activities.customer.PaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ni.parnasa.activities.CouponsScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ni.parnasa.activities.FavoritesScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ni.parnasa.activities.professional.ProfessionalHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ni.parnasa.activities.professional.owncompany.ProfileDetailsOne"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_profile_details_one"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.customer.VerificationActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_verifycode"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.professional.owncompany.ProfileDetailsTwo"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_profile_details_two"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.professional.owncompany.ProfileDetailsThree"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_profile_details_three"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.ni.parnasa.activities.ServiceListActivity"
+            android:label="@string/title_activity_service_list"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.ChangePasswordActivity"
+            android:label="@string/settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.customer.Payment_Via"
+            android:label="@string/title_activity_payment__via"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.ni.parnasa.activities.professional.YourJobsActivity"
+            android:label="@string/your_jobs"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.ni.parnasa.activities.professional.Invoice"
+            android:label="@string/title_activity_invoice"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.ni.parnasa.activities.AddRatingActivity"
+            android:label="@string/title_activity_add_rating"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.ni.parnasa.activities.HelpScren"
+            android:label="@string/help"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.ni.parnasa.activities.professional.JobBreakUp"
+            android:label="@string/title_activity_job_break_up"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.ni.parnasa.activities.WebPaymentActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.WebPaymentForJobActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.FingerprintAuthActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.ForgetPasswordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <!--
+            <activity
+            android:name=".activities.SocialRegistrationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        -->
+        <activity
+            android:name="com.ni.parnasa.activities.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.PrivateMessagesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.ChatActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.customer.CreateJobActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.EditProfileActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.professional.ManageServicesActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.professional.AddServiceActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.JobDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.CreateInvoiceActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.customer.ViewInvoiceActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.SignupCustomerNewActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.SignupProfessionalNewActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.CropActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.ImagePreviewActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.StripePaymentActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.MapWithPolylineActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.customer.TrackingActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.NewMobilDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+
+        <service
+            android:name="com.ni.parnasa.services.BackendUpdateLatLngService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.ni.parnasa.activities.customer.MapForCustomerActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.ni.parnasa.activities.professional.MapForProfessionalActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+    </application>
+</manifest>

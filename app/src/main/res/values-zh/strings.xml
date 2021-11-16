@@ -1,0 +1,445 @@
+<resources>
+
+    <string name="title_activity_verification_code">验证码</string>
+    <string name="title_activity_main">主要活动</string>
+    <string name="title_activity_profile_details_one">个人资料详细信息一</string>
+    <string name="title_activity_verifycode">验证码</string>
+    <string name="title_activity_profile_details_two">个人资料详细信息二</string>
+    <string name="title_activity_profile_details_three">个人资料详细信息三</string>
+    <string name="title_activity_service_list">服务清单</string>
+    <string name="title_activity_payment_via">通过付款</string>
+    <string name="title_activity_payment__via">付款_通过</string>
+    <string name="title_activity_invoice">发票</string>
+    <string name="title_activity_add_rating">增加评分</string>
+    <string name="title_activity_job_break_up">分工</string>
+    <string name="some_thing_wrong">出问题了</string>
+    <string name="no_social_type">找不到社交类型</string>
+    <string name="search_msg">搜寻讯息</string>
+    <string name="map_of_google">地图</string>
+    <string name="no_waze_app_found">找不到WAZE应用，请从Playstore安装</string>
+    <string name="msg_validation_default_nav_sys">请检查其中之一</string>
+    <string name="invite_content">嗨，我正在使用这个名为Parnasa™️Services的酷应用程序。 如果您是服务提供商或需要任何超过60个类别的服务，则它是一个很好的应用程序。 从PlayStore下载</string>
+    <string name="home">家</string>
+    <string name="cant_fetch_location">无法获取位置</string>
+    <string name="report">报告</string>
+    <string name="select_map">选择地图</string>
+    <string name="new_notification">新通知</string>
+    <string name="job_post">已为您发布工作</string>
+    <string name="view_lbl">视图</string>
+
+    <!-- Fingerprint Auth Activity -->
+    <string name="fingerprint_auth_instructions">将指尖放在传感器上以验证您的身份</string>
+    <string name="fingerprint_title">指纹认证</string>
+    <string name="fingerprint_msg">您要添加指纹认证吗？</string>
+    <string name="google_map">谷歌地图</string>
+    <string name="waze_map">位智地图</string>
+
+    <!-- User Type -->
+    <string name="lbl_professional_selection">如果您是专业人士，请选择此选项：</string>
+    <string name="lbl_customer_selection">如果您是客户，请选择此选项：</string>
+    <string name="lbl_professional_sub_selection">注册后，客户可以致电给您。</string>
+    <string name="lbl_customer_sub_selection">免费注册并开始致电专业人员。</string>
+
+    <!-- Professional Type -->
+    <string name="lbl_professional_sole">您是自己公司的唯一工人吗？</string>
+    <string name="lbl_professional_agent">您是拥有最多20名员工的员工或代理商吗？</string>
+    <string name="lbl_choose">选择此屏幕！</string>
+
+    <!-- Login Activity -->
+    <string name="signup">注册</string>
+    <string name="lbl_already_verify">如果您已经通过验证，请登录</string>
+    <string name="user_name_email">用户名（邮箱）</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="forgot_password">忘记密码</string>
+    <string name="lbl_social">或与社交联系</string>
+    <string name="msg_email_validation">请输入电子邮件</string>
+    <string name="msg_password_validation">请输入密码</string>
+    <string name="msg_facebook_login_error">哎呀。 我们无法获取您的信息。 请更改您的隐私设置，然后重试</string>
+    <string name="msg_facebook_login_failed">错误。 请用电子邮件注册</string>
+    <string name="msg_googleapi_not_connect">Google API未连接</string>
+    <string name="msg_google_login_failed">登录失败</string>
+    <string name="msg_network_error">网络错误 ！</string>
+    <string name="msg_finger_print_not_support">您的设备不支持指纹认证</string>
+    <string name="msg_enable_finger_permission">请启用指纹权限</string>
+    <string name="msg_no_finger_config">未配置指纹。 请在您的设备设置中至少注册一个指纹</string>
+    <string name="msg_lock_security">请在设备的设置中启用锁定屏幕安全性</string>
+    <string name="finger_auth_error">授权错误</string>
+    <string name="finger_auth_failed">验证失败</string>
+    <string name="finger_auth_help">身份验证帮助</string>
+    <string name="finger_auth_success">认证成功！</string>
+    <string name="save_and_next">保存并下一步</string>
+    <string name="signup_lbl_msg">在使用该应用之前，请填写以下信息</string>
+    <string name="search_location">搜索位置</string>
+    <string name="address">地址</string>
+    <string name="login_with_touch">或使用Touch ID登录</string>
+
+    <!-- Sing up Activity -->
+    <string name="lbl_quick_register">快速注册</string>
+    <string name="email">电子邮件</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="name">名称</string>
+    <string name="first_name">名字</string>
+    <string name="last_name">姓</string>
+    <string name="phone_number">电话号码</string>
+    <string name="enter_password">输入密码</string>
+    <string name="service_name">服务名称</string>
+    <string name="enter_service_name">输入服务名称</string>
+    <string name="service_and_branch">服务关键字/分支</string>
+    <string name="enter_keyword">输入关键字</string>
+    <string name="address_location">地址/位置</string>
+    <string name="enter_address">输入地址</string>
+    <string name="policy_one">我同意并接受</string>
+    <string name="policy_two">隐私政策</string>
+    <string name="policy_three">&#160;和&#160;</string>
+    <string name="policy_four">使用条款</string>
+    <string name="submit">提交</string>
+    <string name="submit_review">提交评论</string>
+    <string name="submited_review">评论已提交！</string>
+    <string name="msg_review_submitted">您已经提交了评论！</string>
+    <string name="msg_sms_info">您将收到短信或电子邮件代码…</string>
+    <string name="from_camera">从相机</string>
+    <string name="camera_roll">从相机胶卷</string>
+    <string name="cancel">取消</string>
+    <string name="add_photo">添加照片</string>
+    <string name="select_file">选择文件</string>
+    <string name="permission_denied">没有权限</string>
+    <string name="upload_photo">正在上传照片…</string>
+    <string name="please_wait">请稍候…</string>
+    <string name="service_time_out">服务器超时。\\ n请稍后再试。</string>
+    <string name="ok">好</string>
+    <string name="msg_gender_validation">请选择性别</string>
+    <string name="msg_fname_validation">请输入名字</string>
+    <string name="msg_lname_validation">请输入姓氏</string>
+    <string name="msg_phone_validation">请输入电话号码</string>
+    <string name="msg_password_minimum_validation">密码最少8个字符</string>
+    <string name="msg_address">请输入地址/位置</string>
+    <string name="msg_address_validation">请输入地址</string>
+    <string name="msg_service_name">请输入服务名称</string>
+    <string name="search_your_profession">输入/搜索您的职业</string>
+    <string name="type_your_skill">输入您的技能</string>
+    <string name="add_keyword_skill">输入关键字和技能</string>
+    <string name="welcome">欢迎</string>
+    <string name="msg_profession_validation">你的专业是必需的</string>
+    <string name="company_name">公司名</string>
+    <string name="unable_signup">代理商无法通过社交登录</string>
+
+    <!-- Verify Activity -->
+    <string name="verification_coe_validation">请输入验证码</string>
+    <string name="verification_code">验证码</string>
+    <string name="sms_verification_code">短信验证码</string>
+    <string name="email_verification_code">电子邮件验证码</string>
+    <string name="add_sms_verification_code">添加短信验证码</string>
+    <string name="add_email_verification_code">添加电子邮件验证码</string>
+    <string name="v_code">重新发送短信验证</string>
+    <string name="ve_code">重新发送电子邮件验证</string>
+    <string name="or">要么</string>
+    <string name="confirmation">确认书</string>
+    <string name="conform_msg">您想在同一手机号码上重新发送代码吗？</string>
+    <string name="enter_new_mobile">输入新的手机号码</string>
+    <string name="validation_new_mobile_msg">请输入新的手机号码</string>
+
+    <!-- Navigation Menu-->
+    <string name="payment">付款</string>
+    <string name="your_jobs">你的工作</string>
+    <string name="coupon">优惠券</string>
+    <string name="favorites">收藏夹</string>
+    <string name="inbox">收件箱</string>
+    <string name="wallet">钱包</string>
+    <string name="invite">邀请</string>
+    <string name="settings">设定值</string>
+    <string name="help">帮帮我</string>
+    <string name="logout">登出</string>
+    <string name="manage_service">管理服务</string>
+    <string name="filter">过滤</string>
+    <string name="dispatch">调度</string>
+    <string name="job_rate">工作率</string>
+
+    <!-- Payment Activity -->
+    <string name="case_pay">案件</string>
+    <string name="paypal">Paypal</string>
+    <string name="other">其他</string>
+    <string name="save">救</string>
+    <string name="save_send">保存发送</string>
+
+    <!-- Your Jobs Activity -->
+    <string name="pending">待定</string>
+    <string name="new_status">新</string>
+    <string name="ongoing">进行中</string>
+    <string name="upcomming">即将来临</string>
+    <string name="completed">已完成</string>
+    <string name="rejected">被拒绝</string>
+    <string name="no_job_found">找不到工作</string>
+    <string name="payment_pending">付款等待中</string>
+
+    <!-- Create Job Activity -->
+    <string name="create_job">建立工作</string>
+    <string name="select_category">选择类别</string>
+    <string name="select_professional">选择专业</string>
+    <string name="selected_professional">精选专业</string>
+    <string name="select_date">选择日期</string>
+    <string name="select_time">选择时间</string>
+    <string name="select_location">选择位置</string>
+    <string name="job_detail">职位详情</string>
+    <string name="job_note">工作须知</string>
+    <string name="msg_category_validation">请选择类别</string>
+    <string name="msg_professional_validation">请选择专业</string>
+    <string name="msg_date_validation">请选择日期</string>
+    <string name="msg_time_validation">请选择时间</string>
+    <string name="msg_location_validation">请选择位置</string>
+    <string name="msg_job_validation">请输入工作细节</string>
+    <string name="loc_not_found">找不到位置</string>
+    <string name="type_address">类型地址</string>
+    <string name="cal_event_title">选择用于Google日历同步的帐户</string>
+
+    <!-- Coupon Activity -->
+    <string name="no_coupon">未添加优惠券</string>
+    <string name="lbl_add_coupon">添加优惠券</string>
+    <string name="enter_coupon">输入优惠券代码</string>
+    <string name="invalid_coupon">优惠券无效！</string>
+
+    <!-- Forget Password -->
+    <string name="no_data_found">没有找到数据</string>
+    <string name="enter_email">输入电子邮件ID</string>
+    <string name="send">发送</string>
+    <string name="msg_email_invalid">无效的电子邮件ID</string>
+
+    <!-- Chat Activity-->
+    <string name="write_msg">写信息…</string>
+    <string name="phone_not_found">找不到手机号码</string>
+    <string name="msg_validation">请写留言</string>
+    <string name="pick_from">从选择</string>
+    <string name="no_msg_found">找不到讯息</string>
+
+    <!-- Profile Activity & Edit-->
+    <string name="profile">轮廓</string>
+    <string name="edit">编辑</string>
+    <string name="edit_profile">编辑个人资料</string>
+    <string name="email_address">电子邮件地址</string>
+    <string name="dob">出生日期</string>
+    <string name="select_gender">选择性别</string>
+    <string name="msg_fname">请输入名字</string>
+    <string name="msg_dob_validation">请选择出生日期</string>
+    <string name="invalid_image_size">图片尺寸无效</string>
+    <string name="msg_company_validation">请输入公司名称</string>
+    <string name="basic_info">基本信息</string>
+    <string name="basic_and_review">评分与评论</string>
+    <string name="phone">电话</string>
+    <string name="gender">性别</string>
+    <string name="service">服务</string>
+    <string name="average_rating">平均评分</string>
+    <string name="reviews">评论</string>
+
+    <!-- Private Message -->
+    <string name="message">留言内容</string>
+
+    <!-- Account Setting Activity-->
+    <string name="enter_current_pwd">输入当前密码</string>
+    <string name="enter_new_pwd">输入新密码</string>
+    <string name="enter_confirm_pwd">确认新密码</string>
+    <string name="alert">警报</string>
+    <string name="msg_logout">您确定要注销吗？</string>
+    <string name="msg_current_pwd_validation">请输入当前密码</string>
+    <string name="msg_new_pwd_validation">请输入新密码</string>
+    <string name="msg_new_pwd_minimum_required">新密码至少需要八个字符</string>
+    <string name="msg_confirm_pwd_validation">请输入确认密码</string>
+    <string name="msg_pwd_not_match">确认密码不匹配</string>
+    <string name="select_lang">选择语言</string>
+    <string name="default_nav_map">默认导航图</string>
+    <string name="book">书</string>
+    <string name="post_a_job">发布工作</string>
+    <string name="call">呼叫</string>
+    <string name="search_here">在这里搜索。</string>
+    <string name="find_direction">寻找方向..！</string>
+    <string name="msg_origin_address">请输入原始地址！</string>
+    <string name="msg_destination_address">请输入目的地地址！</string>
+
+    <!-- Customer Home -->
+    <string name="location_not_found">找不到位置</string>
+    <string name="search_using_location">使用位置搜索</string>
+    <string name="find_professional">寻找专业人士，输入关键字</string>
+
+    <!-- Professional Home Activity -->
+    <string name="occupied">占据</string>
+    <string name="on_the_way">在途中</string>
+    <string name="free">占据</string>
+
+    <!-- Job Rate Activity -->
+    <string name="basic_rate">基本费率（开始费率）</string>
+    <string name="basic_rate_two">基本费率（开始费率）</string>
+    <string name="hour_rate">小时率</string>
+    <string name="tex_rate">税率</string>
+
+    <!-- Dispatch Activity -->
+    <string name="upgrade">升级</string>
+    <string name="msg_upgrade">您必须升级到金牌才能使用该选件</string>
+    <string name="upgrade_now">现在升级！</string>
+
+    <!-- Filter Activity -->
+    <string name="lbl_show_on_map">在地图上仅显示我。</string>
+    <string name="save_continue">保存并继续</string>
+
+    <!-- Add Service Activity -->
+    <string name="price">价钱</string>
+    <string name="add_keyword">新增关键字</string>
+    <string name="add">加</string>
+    <string name="edit_service">编辑服务</string>
+    <string name="add_service">添加服务</string>
+    <string name="msg_keyword_validation">请添加关键字</string>
+    <string name="msg_service_price_validation">请加服务价格</string>
+    <string name="msg_invalid_price">价格无效</string>
+    <string name="no">没有</string>
+    <string name="yes">是</string>
+
+    <!-- Job Detail Activity -->
+    <string name="customer_detail">顾客信息</string>
+    <string name="professional_detail">专业细节</string>
+    <string name="job_id">工作编号</string>
+    <string name="job_date">工作日期</string>
+    <string name="job_date_and_time">工作日期和时间</string>
+    <string name="started_job_At">开始工作于</string>
+    <string name="completed_job_At">已完成的工作</string>
+    <string name="job_time">工作时间</string>
+    <string name="job_location">工作地点</string>
+    <string name="job_status">工作现状</string>
+    <string name="job_status_new">工作现状:</string>
+    <string name="job_remarks">职位备注</string>
+    <string name="job_review_and_ratings">评论与评分</string>
+    <string name="accept">接受</string>
+    <string name="reject">拒绝</string>
+    <string name="rating_and_review">评分与评论</string>
+    <string name="add_review">添加评论</string>
+    <string name="add_rating">新增评分</string>
+    <string name="create_invoice">创建发票</string>
+    <string name="view_invoice">查看发票</string>
+    <string name="give_rating">给予评分</string>
+    <string name="edit_review">编辑评论</string>
+    <string name="start_job">开始工作</string>
+    <string name="arrived">到了</string>
+    <string name="navigate_me">导航我</string>
+    <string name="complete_job">完成工作</string>
+    <string name="cash_payment_conform">付款确认</string>
+    <string name="cash_payment_conform_msg">您接受客户的现金了吗？</string>
+    <string name="make_payment">付款</string>
+    <string name="track">跟踪</string>
+    <string name="track_map">航迹图</string>
+    <string name="view_in_map">在地图上查看</string>
+    <string name="ride_info_not_found">找不到骑行资讯</string>
+
+    <!-- Create Invoice -->
+    <string name="sent_to_customer">发送给客户</string>
+    <string name="basic_rate_single">基本费率</string>
+    <string name="work_hours">工作时间（小时：毫米）</string>
+    <string name="part_name">零件名称</string>
+    <string name="parts_rate">部分费用</string>
+    <string name="parts_drives">零件/驱动器</string>
+    <string name="discount">折扣</string>
+    <string name="tax">税</string>
+    <string name="notes">笔记：</string>
+    <string name="msg_basic_rate_validation">请输入基本价格</string>
+    <string name="msg_hour_rate_validation">请输入小时费率</string>
+    <string name="msg_work_hour_validation">请输入工作时间</string>
+    <string name="msg_part_validation">请输入零件名称</string>
+    <string name="msg_part_rate_validation">请输入分率</string>
+    <string name="msg_tax_validation">请输入税金</string>
+
+    <!-- View invoice -->
+    <string name="pay">工资</string>
+    <string name="job_booking_id">职位编号</string>
+    <string name="working_hour">工作时间</string>
+    <string name="working_hour_rate">工作时间率</string>
+    <string name="tax_rate">税率</string>
+    <string name="tip">小费</string>
+    <string name="total">总</string>
+    <string name="grand_total">累计</string>
+    <string name="payment_method">付款方法</string>
+    <string name="subtotal">小计</string>
+    <string name="ad_tip">专业人员的广告提示</string>
+    <string name="tip_msg">专业提示</string>
+    <string name="tip_amount">小费金额</string>
+    <string name="pay_by">付款人：</string>
+    <string name="payment_canceled">用户取消付款</string>
+    <string name="lbl_not_payment_option">似乎专业人士尚未选择付款方式。 请联系专业人士付款。</string>
+
+    <!-- Rating and Review -->
+    <string name="rating_msg_one">感谢您使用Parnasa App。 希望很快见到您。请通过菜单与朋友和家人分享我们的应用程序。</string>
+    <string name="rating_msg_two">请给专家评分和/或将专家保存在收藏夹中：</string>
+    <string name="rating_msg_two_for_customer">请评价客户和/或将客户保存在收藏夹中：</string>
+    <string name="rating_validation">请添加评分</string>
+    <string name="review_validation">请添加评论</string>
+    <string name="add_prof_to_fav">将专家添加到收藏夹</string>
+    <string name="add_cus_to_fav">将客户添加到收藏夹</string>
+    <string name="you_choose_to_cash">您选择支付现金</string>
+    <string name="please_pay">请付钱</string>
+    <string name="cash_to_driver">给司机现金</string>
+    <string name="comment_here">在这里发表评论…</string>
+
+    <!-- Search Service-->
+    <string name="search_service">搜索服务</string>
+    <string name="no_search_result_found">找不到搜索结果</string>
+    <string name="msg_one">请点击下面添加</string>
+    <string name="msg_two">作为新服务。</string>
+
+    <!-- Profile Detail Three -->
+    <string name="i_accept">我接受 ：</string>
+    <string name="cash">现金</string>
+    <string name="my">我的</string>
+    <string name="id">ID :</string>
+    <string name="lbl_papal">如果您也接受PayPal，客户将可以通过PayPal向您付款。</string>
+    <string name="silver">银</string>
+    <string name="gold">金</string>
+    <string name="lbl_msg_silver">基本配置，带标准选项，适合个人专业人士。</string>
+    <string name="msg_payment_mode_validation">请选择至少一种付款方式</string>
+    <string name="msg_paypal_validation">请输入paypalId</string>
+    <string name="msg_paypal_invalid">请输入有效的paypalId</string>
+    <string name="msg_membership_validation">请选择银卡或金卡会员</string>
+    <string name="monthly">每月一次</string>
+    <string name="yearly">每年</string>
+    <string name="my_paypal_id">我的贝宝ID</string>
+    <string name="basic_with_minimum">基本最低</string>
+    <string name="offer">提供</string>
+    <string name="for_lbl">对于</string>
+    <string name="year">年</string>
+    <string name="months_free">几个月免费</string>
+    <string name="for_one">为1</string>
+    <string name="offer_for">提供12</string>
+    <string name="dialog_msg_one">您可以选择白银会员计划。 请付钱</string>
+    <string name="dialog_msg_two">使用以下选项。</string>
+    <string name="registration_fee">注册费用</string>
+    <string name="registration_fee_msg">这是一次费用，您需要在开始使用此应用程序之前支付。</string>
+    <string name="validation_registration_fee_msg">找不到注册费</string>
+
+    <!-- Professional Signup step last-->
+    <string name="subscription_fee">订阅收费：</string>
+    <string name="validation_msg_of_subscription">找不到订阅详细信息</string>
+
+    <!-- GPS disable activity -->
+    <string name="loc_service_off">定位服务关闭</string>
+    <string name="lbl_gps">您的隐私设置似乎阻止了我们访问您的位置来查找服务。 您可以通过以下操作解决此问题：</string>
+    <string name="step_one">1.关闭此应用程序。</string>
+    <string name="step_two">2.打开设置应用程序。</string>
+    <string name="step_three">3.滚动到底部，然后在列表中选择此应用程序。</string>
+    <string name="step_four">4.打开位置。</string>
+    <string name="step_five">5.打开此应用，然后重试。</string>
+    <string name="turn_on">打开</string>
+
+    <!-- Payment -->
+    <string name="select_payment">付款人：</string>
+
+    <!-- Tracking-->
+    <string name="driver_arrival_at_loc">司机到达您的位置</string>
+    <string name="eta">预计到达时间</string>
+
+    <!-- Account Setting fragment-->
+    <string name="account_setting">账户设置</string>
+    <string name="change_pwd">更改密码</string>
+    <string name="default_navigation_system">默认导航系统</string>
+    <string name="change_language">改变语言</string>
+
+    <string-array name="selectionOfGender">
+        <item>选择性别</item>
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+</resources>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnSaveAndNext"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:rotationY="@integer/locale_mirror_flip"
+                android:src="@drawable/blue_back_button" />
+
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imgProfile"
+                android:orientation="vertical"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp">
+
+                <TextView
+                    android:id="@+id/lblUsername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Welcome"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="@string/signup_lbl_msg"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:id="@+id/linlayPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp">
+
+                        <com.hbb20.CountryCodePicker
+                            android:id="@+id/sprCode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:ccp_autoDetectCountry="true"
+                            app:ccp_defaultNameCode="BR"
+                            app:ccp_textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/edtPhoneNo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|start"
+                            android:layout_marginStart="8dp"
+                            android:background="@null"
+                            android:hint="@string/phone_number"
+                            android:imeOptions="actionNext"
+                            android:inputType="number"
+                            android:textAlignment="viewStart"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:text="@string/address_location"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/edtLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:clickable="true"
+                        android:focusable="false"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:paddingStart="8dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="8dp"
+                        android:paddingBottom="4dp"
+                        android:text=""
+                        android:textAlignment="viewStart"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linlayGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:text="@string/select_gender"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="12sp" />
+
+                    <Spinner
+                        android:id="@+id/sprGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:entries="@array/selectionOfGender"
+                        android:spinnerMode="dialog"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnSaveAndNext"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:background="@color/c_btn_blue"
+        android:text="@string/save_and_next"
+        android:textAllCaps="true"
+        android:textColor="@color/c_white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,498 @@
+<resources>
+    <string name="app_name" translatable="false">Parnasa</string>
+<!--    <string name="google_maps_key" translatable="false">AIzaSyDkIxjdG5RiJjtSB1rDOYZs7XoTAthwMFA</string> &lt;!&ndash; client account key &ndash;&gt;-->
+    <string name="google_maps_key" translatable="false">AIzaSyCrS6TuEBif4blHCoOQ_3u7psPi1M3Bnio</string>
+    <string name="fb_key" translatable="false">2582715255295712</string>
+
+    <!-- Publishable key for stripe, this is testing key -->
+    <string name="publishable_key_for_stripe" translatable="false">pk_live_yEd9l7R8dtdbWgDDK33IfKvz</string>
+
+    <!-- Given by yash-->
+    <string name="fb_ad_one" translatable="false">2828812443881284_2867322610030267</string>
+    <string name="fb_ad_two" translatable="false">2828812443881284_2867334206695774</string>
+    <string name="fb_ad_three" translatable="false">2828812443881284_2867336346695560</string>
+    <string name="fb_ad_four" translatable="false">2828812443881284_2828814117214450</string>
+
+    <!-- Google AdMob Info. -->
+    <!--    <string name="admob_app_id" translatable="false">ca-app-pub-7561871845717133~4353228734</string>-->
+<!--    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544/2934735716</string>-->
+    <string name="admob_app_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_unit_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_coupon_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_help_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_settings_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_change_password_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_nav_setting_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_change_lang_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_home_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_create_job_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_job_list_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_job_detail_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_create_invoice_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_view_invoice_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_professional_rating_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_job_breackup_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string><!--//-->
+    <string name="admob_pay_invoice_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string><!--//-->
+    <string name="admob_job_location_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string><!--//-->
+    <string name="admob_traking_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_job_rate_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_payment_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_inbox_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_favorite_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string>
+    <string name="admob_homeInterstitialAd_ad_id" translatable="false">ca-app-pub-3581105679226075/7932395254</string><!--//-->
+
+    <string name="title_activity_verification_code">VerificationCode</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_profile_details_one">ProfileDetailsOne</string>
+    <string name="title_activity_verifycode">Verifycode</string>
+    <string name="title_activity_profile_details_two">ProfileDetailsTwo</string>
+    <string name="title_activity_profile_details_three">ProfileDetailsThree</string>
+    <string name="title_activity_service_list">Service list</string>
+    <string name="title_activity_payment_via">Payment Via</string>
+    <string name="title_activity_payment__via">Payment_Via</string>
+    <string name="title_activity_invoice">Invoice</string>
+    <string name="title_activity_add_rating">AddRating</string>
+    <string name="title_activity_job_break_up">JobBreakUp</string>
+    <string name="some_thing_wrong">Something went wrong</string>
+    <string name="no_social_type">No social type found</string>
+    <string name="search_msg">Search Message</string>
+    <string name="map_of_google">Map</string>
+    <string name="no_waze_app_found">No WAZE app found please install from playstore</string>
+    <string name="msg_validation_default_nav_sys">Please check one of them</string>
+    <string name="invite_content">Hi there, I am using this cool app called Parnasa™️ Services. It is a good app if you are a Service Provider or need any Service, of more than 60 Categories. Download it from PlayStore</string>
+    <string name="home">Home</string>
+    <string name="cant_fetch_location">can\'t fetch location</string>
+    <string name="report">Report</string>
+    <string name="select_map">Select Map</string>
+    <string name="new_notification">New Notification</string>
+    <string name="job_post">A job has been posted for you</string>
+    <string name="view_lbl">View</string>
+
+    <!-- Fingerprint Auth Activity -->
+    <string name="fingerprint_title">Fingerprint Authentication</string>
+    <string name="fingerprint_msg">Would you like to add fingerprint authentication?</string>
+    <string name="google_map">Google Map</string>
+    <string name="waze_map">Waze Map</string>
+
+    <!-- User Type -->
+    <string name="lbl_professional_selection">Choose this if you are a professional:</string>
+    <string name="lbl_customer_selection">Choose this if you are a customer:</string>
+    <string name="lbl_professional_sub_selection">Register and Customer can call you.</string>
+    <string name="lbl_customer_sub_selection">Register for free and start calling professionals.</string>
+
+    <!-- Professional Type -->
+    <string name="lbl_professional_sole">Are you sole worker, with own company?</string>
+    <string name="lbl_professional_agent">Are you employer or agent with up to 20 workers?</string>
+    <string name="lbl_choose">Choose this screen!</string>
+
+    <!-- Login Activity -->
+    <string name="signup">Sign up</string>
+    <string name="lbl_already_verify">If you are already verified user please login</string>
+    <string name="user_name_email">User Name(Email)</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password"><u>Forgot Password</u></string>
+    <string name="lbl_social">or connect with social</string>
+    <string name="msg_email_validation">Please enter email</string>
+    <string name="msg_password_validation">Please enter password</string>
+    <string name="msg_facebook_login_error">Oops. We cannot get your information. Please change your privacy settings and try again</string>
+    <string name="msg_facebook_login_failed">Error. Please sign up with email</string>
+    <string name="msg_googleapi_not_connect">Google api not connected</string>
+    <string name="msg_google_login_failed">Login Failed</string>
+    <string name="msg_network_error">Network Error !</string>
+    <string name="msg_finger_print_not_support">Your device does not support fingerprint authentication</string>
+    <string name="msg_enable_finger_permission">Please enable the fingerprint permission</string>
+    <string name="msg_no_finger_config">No fingerprint configured. Please register at least one fingerprint in your device\'s Settings</string>
+    <string name="msg_lock_security">Please enable lock screen security in your device\'s Settings</string>
+    <string name="finger_auth_error">Authentication error</string>
+    <string name="finger_auth_failed">Authentication failed</string>
+    <string name="finger_auth_help">Authentication help</string>
+    <string name="finger_auth_success">Authentication success!</string>
+    <string name="save_and_next">Save And Next</string>
+    <string name="signup_lbl_msg">Before using the app, please fill in below information</string>
+    <string name="search_location">Search Location</string>
+    <string name="address">Address</string>
+    <string name="login_with_touch">or Login with Touch ID</string>
+
+    <!-- Sing up Activity -->
+    <string name="lbl_quick_register">Quick Register</string>
+    <string name="email">Email</string>
+    <string name="dummy_email" translatable="false">name@example.com</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="name">Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="service_name">Service Name</string>
+    <string name="enter_service_name">Enter Service Name</string>
+    <string name="service_and_branch">Service Keyword / Branch</string>
+    <string name="enter_keyword">Enter Keyword</string>
+    <string name="address_location">Address/Location</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="policy_one">I agree and accept the&#160;</string>
+    <string name="policy_two">Privacy Policy</string>
+    <string name="policy_three">&#160;and the&#160;</string>
+    <string name="policy_four">Terms of Use</string>
+    <string name="submit">Submit</string>
+    <string name="submit_review">Submit Review</string>
+    <string name="submited_review">Review Submitted!</string>
+    <string name="msg_review_submitted">You have already review submitted!</string>
+    <string name="msg_sms_info">You will get sms or email code…</string>
+    <string name="from_camera">From Camera</string>
+    <string name="camera_roll">From Cameraroll</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="select_file">Select File</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="upload_photo">Uploading Photo…</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="service_time_out">Server time out.\n please try again later.</string>
+    <string name="ok">OK</string>
+    <string name="msg_gender_validation">Please select gender</string>
+    <string name="msg_fname_validation">Please enter first name</string>
+    <string name="msg_lname_validation">Please enter last name</string>
+    <string name="msg_phone_validation">Please enter phone number</string>
+    <string name="msg_password_minimum_validation">Password minimum eight characters required</string>
+    <string name="msg_address">Please enter address/location</string>
+    <string name="msg_address_validation">Please enter address</string>
+    <string name="msg_service_name">Please enter service name</string>
+    <string name="search_your_profession">Type/Search your profession</string>
+    <string name="type_your_skill">Type your skill</string>
+    <string name="add_keyword_skill">Type keyword/s &amp; skill/s</string>
+    <string name="welcome">Welcome</string>
+    <string name="msg_profession_validation">Your profession is required</string>
+    <string name="company_name">Company Name</string>
+    <string name="unable_signup">Agency can\'t login with social</string>
+
+    <!-- Verify Activity -->
+    <string name="verification_coe_validation">Please enter verification code</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="sms_verification_code">SMS Verification Code</string>
+    <string name="email_verification_code">Email Verification Code</string>
+    <string name="add_sms_verification_code">Add sms verification code</string>
+    <string name="add_email_verification_code">Add email verification code</string>
+    <string name="v_code"><u>RESEND SMS VERIFICATION CODE</u></string>
+    <string name="ve_code"><u>RESEND EMAIL VERIFICATION CODE</u></string>
+    <string name="or">Or</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="conform_msg">Would you like to re-send code on same mobile number?</string>
+    <string name="enter_new_mobile">Enter new mobile number</string>
+    <string name="validation_new_mobile_msg">Please enter new mobile number</string>
+
+    <!-- Navigation Menu-->
+    <string name="payment">Payment</string>
+    <string name="your_jobs">Your Jobs</string>
+    <string name="coupon">Coupon</string>
+    <string name="favorites">Favorites</string>
+    <string name="inbox">Inbox</string>
+    <string name="wallet">Wallet</string>
+    <string name="invite">Invite</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+    <string name="manage_service">Manage Service</string>
+    <string name="filter">Filter</string>
+    <string name="dispatch">Dispatch</string>
+    <string name="job_rate">Job Rate</string>
+
+    <!-- Payment Activity -->
+    <string name="case_pay">Case</string>
+    <string name="paypal">Paypal</string>
+    <string name="other">Other</string>
+    <string name="save">Save</string>
+    <string name="save_send">Save Send</string>
+
+    <!-- Your Jobs Activity -->
+    <string name="pending">Pending</string>
+    <string name="new_status">New</string>
+    <string name="ongoing">Ongoing</string>
+    <string name="upcomming">UpComing</string>
+    <string name="completed">Completed</string>
+    <string name="rejected">Rejected</string>
+    <string name="no_job_found">No Jobs Found</string>
+    <string name="payment_pending">Payment Pending</string>
+
+    <!-- Create Job Activity -->
+    <string name="create_job">Create Job</string>
+    <string name="select_category">Select Category</string>
+    <string name="select_professional">Select Professional</string>
+    <string name="selected_professional">Selected Professional</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="select_location">Select Location</string>
+    <string name="job_detail">Job Details</string>
+    <string name="job_note">Job Notes</string>
+    <string name="msg_category_validation">Please select category</string>
+    <string name="msg_professional_validation">Please select professional</string>
+    <string name="msg_date_validation">Please select date</string>
+    <string name="msg_time_validation">Please select time</string>
+    <string name="msg_location_validation">Please select location</string>
+    <string name="msg_job_validation">Please enter job details</string>
+    <string name="loc_not_found">Location not found</string>
+    <string name="type_address">Type address</string>
+    <string name="cal_event_title">Choose account for google calendar sync</string>
+
+    <!-- Coupon Activity -->
+    <string name="no_coupon">No coupon added</string>
+    <string name="lbl_add_coupon">Add coupon</string>
+    <string name="enter_coupon">Enter coupon code</string>
+    <string name="invalid_coupon">Invalid Coupon!</string>
+
+    <!-- Forget Password -->
+    <string name="no_data_found">No data found</string>
+    <string name="enter_email">Enter email Id</string>
+    <string name="send">Send</string>
+    <string name="msg_email_invalid">Invalid email Id</string>
+
+    <!-- Chat Activity-->
+    <string name="write_msg">Write message…</string>
+    <string name="phone_not_found">Mobile number not found</string>
+    <string name="msg_validation">Please write message</string>
+    <string name="pick_from">Pick From</string>
+    <string name="no_msg_found">No message found</string>
+
+    <!-- Profile Activity & Edit-->
+    <string name="profile">Profile</string>
+    <string name="edit">Edit</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="email_address">Email Address</string>
+    <string name="dob">Date of Birth  (YYYY-MM-DD)</string>
+    <string name="select_gender">Select Gender</string>
+    <string name="msg_fname">Please enter first name</string>
+    <string name="msg_dob_validation">Please select date of birth</string>
+    <string name="invalid_image_size">Invalid image size</string>
+    <string name="not_applicable" translatable="false">N/A</string>
+    <string name="msg_company_validation">Please enter company name</string>
+    <string name="basic_info">Basic Info</string>
+    <string name="basic_and_review">Rating &amp; Review</string>
+    <string name="phone">Phone</string>
+    <string name="gender">Gender</string>
+    <string name="service">Service</string>
+    <string name="average_rating">Average Rating</string>
+    <string name="reviews">Reviews</string>
+
+    <!-- Private Message -->
+    <string name="message">Messages</string>
+
+    <!-- Account Setting Activity-->
+    <string name="enter_current_pwd">Enter current password</string>
+    <string name="enter_new_pwd">Enter new password</string>
+    <string name="enter_confirm_pwd">Confirm new password</string>
+    <string name="alert">Alert</string>
+    <string name="msg_logout">Are you sure you want to log out?</string>
+    <string name="msg_current_pwd_validation">Please enter current password</string>
+    <string name="msg_new_pwd_validation">Please enter new password</string>
+    <string name="msg_new_pwd_minimum_required">Minimum eight characters required for new password</string>
+    <string name="msg_confirm_pwd_validation">Please enter confirm password</string>
+    <string name="msg_pwd_not_match">Confirm password doesn\'t match</string>
+    <string name="select_lang">Select Language</string>
+    <string name="default_nav_map">Default Navigation Map</string>
+    <string name="book">Book</string>
+    <string name="post_a_job">Post a Job</string>
+    <string name="call">Call</string>
+    <string name="search_here">Search here..</string>
+    <string name="find_direction">Finding direction..!</string>
+    <string name="msg_origin_address">Please enter origin address!</string>
+    <string name="msg_destination_address">Please enter destination address!</string>
+
+    <!-- Customer Home -->
+    <string name="location_not_found">Location not found</string>
+    <string name="search_using_location">Search using location</string>
+    <string name="find_professional">Find a professional, type keyword</string>
+
+    <!-- Professional Home Activity -->
+    <string name="occupied">OCCUPIED</string>
+    <string name="on_the_way">ON THE WAY</string>
+    <string name="free">FREE</string>
+
+    <!-- Job Rate Activity -->
+    <string name="basic_rate">Basic Rate (Start Rate)</string>
+    <string name="basic_rate_two">Basic Rate (Start Rate)</string>
+    <string name="hour_rate">Hour Rate</string>
+    <string name="tex_rate">Tax Rate</string>
+
+    <!-- Dispatch Activity -->
+    <string name="upgrade">Upgrade</string>
+    <string name="msg_upgrade">You have to upgrade to Gold in order to use the option</string>
+    <string name="upgrade_now">Upgrade Now!</string>
+
+    <!-- Filter Activity -->
+    <string name="lbl_show_on_map">Show only me on the map.</string>
+    <string name="save_continue">Save and continue</string>
+
+    <!-- Add Service Activity -->
+    <string name="price">Price</string>
+    <string name="add_keyword">Add keyword</string>
+    <string name="add">Add</string>
+    <string name="edit_service">Edit Service</string>
+    <string name="add_service">Add Service</string>
+    <string name="msg_keyword_validation">Please add keyword</string>
+    <string name="msg_service_price_validation">Please add service price</string>
+    <string name="msg_invalid_price">Invalid price</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+
+    <!-- Job Detail Activity -->
+    <string name="customer_detail">Customer Details</string>
+    <string name="professional_detail">Professional Details</string>
+    <string name="job_id">Job ID</string>
+    <string name="job_date">Job Date</string>
+    <string name="job_date_and_time">Job Date &amp; Time</string>
+    <string name="started_job_At">Started Job At</string>
+    <string name="completed_job_At">Completed Job At</string>
+    <string name="job_time">Job Time</string>
+    <string name="job_location">Job Location</string>
+    <string name="job_status">Job Status</string>
+    <string name="job_status_new">Job Status:&#160;</string>
+    <string name="job_remarks">Job Remarks</string>
+    <string name="job_review_and_ratings">Review &amp; Ratings</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="rating_and_review">Rating &amp; Review</string>
+    <string name="add_review">Add review</string>
+    <string name="add_rating">Add rating</string>
+    <string name="create_invoice">Create Invoice</string>
+    <string name="view_invoice">View Invoice</string>
+    <string name="give_rating">Give Rating</string>
+    <string name="edit_review">Edit Review</string>
+    <string name="start_job">Start Job</string>
+    <string name="arrived">Arrived</string>
+    <string name="navigate_me">Navigate Me</string>
+    <string name="complete_job">Complete Job</string>
+    <string name="cash_payment_conform">Payment Confirmation</string>
+    <string name="cash_payment_conform_msg">Are you accepted cash from customer?</string>
+    <string name="make_payment">Make Payment</string>
+    <string name="track">Track</string>
+    <string name="track_map">Track Map</string>
+    <string name="view_in_map">View In Map</string>
+    <string name="ride_info_not_found">Ride information not found</string>
+
+    <!-- Create Invoice -->
+    <string name="sent_to_customer">Send to Customer</string>
+    <string name="basic_rate_single">Basic Rate</string>
+    <string name="work_hours">Work Hours (HH:mm)</string>
+    <string name="part_name">Parts Name</string>
+    <string name="parts_rate">Part Rate</string>
+    <string name="parts_drives">Parts/Drives</string>
+    <string name="discount">Discount</string>
+    <string name="tax">Tax</string>
+    <string name="notes">Notes:</string>
+    <string name="currency" translatable="false">$</string>
+    <string name="msg_basic_rate_validation">Please enter the basic rate</string>
+    <string name="msg_hour_rate_validation">Please enter hour rate</string>
+    <string name="msg_work_hour_validation">Please enter the working hours</string>
+    <string name="msg_part_validation">Please enter the part name</string>
+    <string name="msg_part_rate_validation">Please enter the part rate</string>
+    <string name="msg_tax_validation">Please enter the tax</string>
+
+    <!-- View invoice -->
+    <string name="pay">Pay</string>
+    <string name="job_booking_id">Job Booking Id</string>
+    <string name="working_hour">Working Hours</string>
+    <string name="working_hour_rate">Working Hour Rate</string>
+    <string name="tax_rate">Tax Rate</string>
+    <string name="tip">Tip</string>
+    <string name="total">Total</string>
+    <string name="grand_total">Grand Total</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="ad_tip">Ad Tips for professionals</string>
+    <string name="tip_msg">Tip for professionals</string>
+    <string name="tip_amount">Tip Amount</string>
+    <string name="pay_by">Pay By:</string>
+    <string name="payment_canceled">Payment canceled by user</string>
+    <string name="lbl_not_payment_option">It seems like professional has not yet chosen the mode of payment. Please contact professional to make payment.</string>
+
+    <!-- Rating and Review -->
+    <string name="rating_msg_one">Thank you for using Parnasa App. Hope to see you soon.Please share our app with friends and family through the menu.</string>
+    <string name="rating_msg_two">Please rate Professional and/or save Professional in favorites:</string>
+    <string name="rating_msg_two_for_customer">Please rate Customer and/or save Customer in favorites:</string>
+    <string name="rating_validation">Please add rating</string>
+    <string name="review_validation">Please add review</string>
+    <string name="add_prof_to_fav">Add Professional to favorites</string>
+    <string name="add_cus_to_fav">Add Customer to favorites</string>
+    <string name="you_choose_to_cash">You choose to pay cash</string>
+    <string name="please_pay">Please Pay</string>
+    <string name="cash_to_driver">Cash to the driver</string>
+    <string name="comment_here">Comment here…</string>
+
+    <!-- Search Service-->
+    <string name="search_service">Search Service</string>
+    <string name="no_search_result_found">No search result found</string>
+    <string name="msg_one">Please click below to add  </string>
+    <string name="msg_two">&#160;"as new service.</string>
+
+    <!-- Profile Detail Three -->
+    <string name="i_accept">I Accept :</string>
+    <string name="cash">Cash</string>
+    <string name="my">My</string>
+    <string name="id">ID :</string>
+    <string name="lbl_papal">If you also accept PayPal, customers will able to pay you through PayPal.</string>
+    <string name="silver">Silver</string>
+    <string name="gold">Gold</string>
+    <string name="lbl_msg_silver">Basic with standard options, Suitable for individual professional.</string>
+    <string name="msg_payment_mode_validation">Please select at least one payment mode</string>
+    <string name="msg_paypal_validation">Please enter paypalId</string>
+    <string name="msg_paypal_invalid">Please enter valid paypalId</string>
+    <string name="msg_membership_validation">Please select silver or gold membership</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    <string name="my_paypal_id">My PayPal ID</string>
+    <string name="basic_with_minimum">basic with minimum</string>
+    <string name="offer">Offer</string>
+    <string name="for_lbl">for</string>
+    <string name="year">year</string>
+    <string name="months_free">months free</string>
+    <string name="for_one">for 1</string>
+    <string name="offer_for">offer for 12</string>
+    <string name="dialog_msg_one">You have option for silver membership plan. Please pay</string>
+    <string name="dialog_msg_two">using below options.</string>
+    <string name="registration_fee">Registration Fee</string>
+    <string name="registration_fee_msg">This is one time fee which you need to pay before you start using this app.</string>
+    <string name="validation_registration_fee_msg">Registration fee not found</string>
+
+    <!-- Professional Signup step last-->
+    <string name="subscription_fee">Subscription Fee:</string>
+    <string name="validation_msg_of_subscription">Subscription details not found</string>
+
+    <!-- GPS disable activity -->
+    <string name="loc_service_off">Location Service Turn Off</string>
+    <string name="lbl_gps">It looks like your privacy settings are preventing us from accessing your location to find services. You can fix that by doing the following:</string>
+    <string name="step_one">1. Close this app.</string>
+    <string name="step_two">2. Open the settings app.</string>
+    <string name="step_three">3. Scroll to the bottom and select this app in the list.</string>
+    <string name="step_four">4. Turn the location on.</string>
+    <string name="step_five">5. Open this app and try again.</string>
+    <string name="turn_on">Turn On</string>
+
+    <!-- Payment -->
+    <string name="select_payment">Payment By :</string>
+    <string name="stripe_payment" translatable="false">Stripe</string>
+
+    <!-- Tracking-->
+    <string name="eta">ETA</string>
+    <string name="driver_arrival_at_loc">Driver arrival at your location</string>
+
+    <!-- Account Setting fragment-->
+    <string name="account_setting">Account Setting</string>
+    <string name="change_pwd">Change Password</string>
+    <string name="default_navigation_system">Default Navigation System</string>
+    <string name="change_language">Change Language</string>
+    <string name="lan_english" translatable="false">English</string>
+    <string name="lan_french" translatable="false">French, Français</string>
+    <string name="lan_german" translatable="false">German, Deutsche</string>
+    <string name="lan_hebrew" translatable="false">Hebrew, עברית</string>
+    <string name="lan_russian" translatable="false">Russian, русский</string>
+    <string name="lan_spanish" translatable="false">Spanish, Español</string>
+    <string name="lan_arabic" translatable="false">Arabic, عربى</string>
+    <string name="lan_chinese" translatable="false">Chinese(Simplified) 简体中文</string>
+
+    <string-array name="selectionOfGender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="fingerprint_auth_instructions">Place your fingertip on the sensor to verify your identity</string>
+</resources>

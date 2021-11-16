@@ -1,0 +1,446 @@
+<resources>
+
+    <string name="title_activity_verification_code">شيفرة التأكيد</string>
+    <string name="title_activity_main">النشاط الرئيسي</string>
+    <string name="title_activity_profile_details_one">تفاصيل الملف الشخصي واحد</string>
+    <string name="title_activity_verifycode">التحقق من كود</string>
+    <string name="title_activity_profile_details_two">تفاصيل الملف الشخصي اثنان</string>
+    <string name="title_activity_profile_details_three">تفاصيل الملف الشخصي ثلاثة</string>
+    <string name="title_activity_service_list">قائمة الخدمات</string>
+    <string name="title_activity_payment_via">الدفع عن طريق</string>
+    <string name="title_activity_payment__via">الدفع_فيا</string>
+    <string name="title_activity_invoice">فاتورة</string>
+    <string name="title_activity_add_rating">إضافة تقييم</string>
+    <string name="title_activity_job_break_up">تفكك الوظيفة</string>
+    <string name="some_thing_wrong">هناك خطأ ما</string>
+    <string name="no_social_type">لم يتم العثور على نوع اجتماعي</string>
+    <string name="search_msg">رسالة البحث</string>
+    <string name="map_of_google">خريطة</string>
+    <string name="no_waze_app_found">لم يتم العثور على تطبيق WAZE ، يرجى التثبيت من متجر الألعاب</string>
+    <string name="msg_validation_default_nav_sys">يرجى التحقق من واحد منهم</string>
+    <string name="invite_content">مرحبًا ، أنا أستخدم هذا التطبيق الرائع المسمى خدمات Parnasa ™ ️. إنه تطبيق جيد إذا كنت مقدم خدمة أو تحتاج إلى أي خدمة ، من أكثر من 60 فئة. قم بتنزيله من PlayStore</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="cant_fetch_location">لا يمكن جلب الموقع</string>
+    <string name="report">نقل</string>
+    <string name="select_map">حدد الخريطة</string>
+    <string name="new_notification">إعلام جديد</string>
+    <string name="job_post">تم نشر وظيفة لك</string>
+    <string name="view_lbl">رأي</string>
+
+    <!-- Fingerprint Auth Activity -->
+    <string name="fingerprint_auth_instructions">ضع إصبعك على المستشعر للتحقق من هويتك</string>
+    <string name="fingerprint_title">مصادقة بصمة الإصبع</string>
+    <string name="fingerprint_msg">هل ترغب في إضافة مصادقة بصمة الإصبع؟</string>
+    <string name="google_map">خرائط جوجل</string>
+    <string name="waze_map">خريطة Waze</string>
+
+    <!-- User Type -->
+    <string name="lbl_professional_selection">اختر هذا إذا كنت محترفًا:</string>
+    <string name="lbl_customer_selection">اختر هذا إذا كنت عميلاً:</string>
+    <string name="lbl_professional_sub_selection">سجل ويمكن للعميل الاتصال بك.</string>
+    <string name="lbl_customer_sub_selection">سجل مجانًا وابدأ في الاتصال بالمحترفين.</string>
+
+    <!-- Professional Type -->
+    <string name="lbl_professional_sole">هل أنت عامل وحيد مع شركة خاصة؟</string>
+    <string name="lbl_professional_agent">هل أنت موظف أو وكيل مع ما يصل إلى 20 عاملاً؟</string>
+    <string name="lbl_choose">اختر هذه الشاشة!</string>
+
+    <!-- Login Activity -->
+    <string name="signup">سجل</string>
+    <string name="lbl_already_verify">إذا كنت بالفعل مستخدمًا تم التحقق منه ، فيرجى تسجيل الدخول</string>
+    <string name="user_name_email">اسم المستخدم (البريد الإلكتروني)</string>
+    <string name="password">كلمه السر</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="forgot_password">هل نسيت كلمة المرور</string>
+    <string name="lbl_social">أو التواصل الاجتماعي</string>
+    <string name="msg_email_validation">يرجى إدخال البريد الإلكتروني</string>
+    <string name="msg_password_validation">يرجى إدخال كلمة المرور</string>
+    <string name="msg_facebook_login_error">وجه الفتاة. لا يمكننا الحصول على معلوماتك. يرجى تغيير إعدادات الخصوصية والمحاولة مرة أخرى</string>
+    <string name="msg_facebook_login_failed">خطأ. يرجى الاشتراك عن طريق البريد الإلكتروني</string>
+    <string name="msg_googleapi_not_connect">واجهة برمجة تطبيقات Google غير متصلة</string>
+    <string name="msg_google_login_failed">فشل تسجيل الدخول</string>
+    <string name="msg_network_error">خطأ في الشبكة !</string>
+    <string name="msg_finger_print_not_support">جهازك لا يدعم مصادقة بصمات الأصابع</string>
+    <string name="msg_enable_finger_permission">يرجى تمكين إذن بصمة الإصبع</string>
+    <string name="msg_no_finger_config">لم يتم تكوين بصمة الإصبع. يرجى تسجيل بصمة إصبع واحدة على الأقل في إعدادات جهازك</string>
+    <string name="msg_lock_security">يرجى تمكين أمان شاشة القفل في إعدادات جهازك</string>
+    <string name="finger_auth_error">خطأ مصادقة</string>
+    <string name="finger_auth_failed">المصادقة فشلت</string>
+    <string name="finger_auth_help">مساعدة المصادقة</string>
+    <string name="finger_auth_success">نجاح المصادقة!</string>
+    <string name="save_and_next">حفظ والتالي</string>
+    <string name="signup_lbl_msg">قبل استخدام التطبيق ، يرجى ملء المعلومات أدناه</string>
+    <string name="search_location">موقع البحث</string>
+    <string name="address">عنوان</string>
+    <string name="login_with_touch">أو تسجيل الدخول باستخدام Touch ID</string>
+
+    <!-- Sing up Activity -->
+    <string name="lbl_quick_register">تسجيل سريع</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="male">الذكر</string>
+    <string name="female">أنثى</string>
+    <string name="name">اسم</string>
+    <string name="first_name">الاسم الاول</string>
+    <string name="last_name">الكنية</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="enter_password">أدخل كلمة المرور</string>
+    <string name="service_name">اسم الخدمة</string>
+    <string name="enter_service_name">أدخل اسم الخدمة</string>
+    <string name="service_and_branch">كلمة / فرع الخدمة</string>
+    <string name="enter_keyword">أدخل الكلمة المفتاحية</string>
+    <string name="address_location">العنوان / الموقع</string>
+    <string name="enter_address">أدخل العنوان</string>
+    <string name="policy_one">أوافق وأقبل</string>
+    <string name="policy_two">سياسة الخصوصية</string>
+    <string name="policy_three">و ال</string>
+    <string name="policy_four">تعليمات الاستخدام</string>
+    <string name="submit">إرسال</string>
+    <string name="submit_review">إرسال المراجعة</string>
+    <string name="submited_review">تم إرسال المراجعة!</string>
+    <string name="msg_review_submitted">لقد قمت بالفعل بمراجعة المقدمة!</string>
+    <string name="msg_sms_info">سوف تحصل على الرسائل القصيرة أو رمز البريد الإلكتروني ...</string>
+    <string name="from_camera">من الكاميرا</string>
+    <string name="camera_roll">من لفة الكاميرا</string>
+    <string name="cancel">إلغاء</string>
+    <string name="add_photo">إضافة صورة</string>
+    <string name="select_file">حدد ملف</string>
+    <string name="permission_denied">طلب الاذن مرفوض</string>
+    <string name="upload_photo">جارٍ تحميل الصورة ...</string>
+    <string name="please_wait">ارجوك انتظر…</string>
+    <string name="service_time_out">انتهت مهلة الخادم. \\ n يرجى المحاولة مرة أخرى لاحقًا.</string>
+    <string name="ok">حسنا</string>
+    <string name="msg_gender_validation">يرجى تحديد الجنس</string>
+    <string name="msg_fname_validation">يرجى إدخال الاسم الأول</string>
+    <string name="msg_lname_validation">يرجى إدخال الاسم الأخير</string>
+    <string name="msg_phone_validation">يرجى إدخال رقم الهاتف</string>
+    <string name="msg_password_minimum_validation">كلمة المرور ثمانية أحرف كحد أدنى</string>
+    <string name="msg_address">يرجى إدخال العنوان / الموقع</string>
+    <string name="msg_address_validation">يرجى إدخال العنوان</string>
+    <string name="msg_service_name">يرجى إدخال اسم الخدمة</string>
+    <string name="search_your_profession">اكتب / ابحث عن مهنتك</string>
+    <string name="type_your_skill">اكتب مهارتك</string>
+    <string name="add_keyword_skill">اكتب الكلمة الأساسية / المهارات والمهارات</string>
+    <string name="welcome">أهلا بك</string>
+    <string name="msg_profession_validation">مهنتك مطلوبة</string>
+    <string name="company_name">اسم الشركة</string>
+    <string name="unable_signup">لا يمكن للوكالة تسجيل الدخول باستخدام Social</string>
+
+    <!-- Verify Activity -->
+    <string name="verification_coe_validation">يرجى إدخال رمز التحقق</string>
+    <string name="verification_code">شيفرة التأكيد</string>
+    <string name="sms_verification_code">كود التحقق من SMS</string>
+    <string name="email_verification_code">رمز التحقق من البريد الإلكتروني</string>
+    <string name="add_sms_verification_code">أضف رمز التحقق sms</string>
+    <string name="add_email_verification_code">أضف رمز التحقق من البريد الإلكتروني</string>
+    <string name="v_code">إعادة إرسال التحقق من الرسائل القصيرة</string>
+    <string name="ve_code">إعادة إرسال التحقق من البريد الإلكتروني</string>
+    <string name="or">أو</string>
+    <string name="confirmation">التأكيد</string>
+    <string name="conform_msg">هل ترغب في إعادة إرسال الرمز على نفس رقم الهاتف المحمول؟</string>
+    <string name="enter_new_mobile">أدخل رقم جوال جديد</string>
+    <string name="validation_new_mobile_msg">الرجاء إدخال رقم هاتف محمول جديد</string>
+
+    <!-- Navigation Menu-->
+    <string name="payment">دفع</string>
+    <string name="your_jobs">وظائفك</string>
+    <string name="coupon">قسيمة</string>
+    <string name="favorites">المفضلة</string>
+    <string name="inbox">صندوق الوارد</string>
+    <string name="wallet">محفظة نقود</string>
+    <string name="invite">يدعو</string>
+    <string name="settings">الإعدادات</string>
+    <string name="help">مساعدة</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="manage_service">إدارة الخدمة</string>
+    <string name="filter">منقي</string>
+    <string name="dispatch">إيفاد</string>
+    <string name="job_rate">معدل العمل</string>
+
+    <!-- Payment Activity -->
+    <string name="case_pay">قضية</string>
+    <string name="paypal">Paypal</string>
+    <string name="other">آخر</string>
+    <string name="save">حفظ</string>
+    <string name="save_send">حفظ الإرسال</string>
+
+    <!-- Your Jobs Activity -->
+    <string name="pending">قيد الانتظار</string>
+    <string name="new_status">جديد</string>
+    <string name="ongoing">جاري التنفيذ</string>
+    <string name="upcomming">القادمة</string>
+    <string name="completed">منجز</string>
+    <string name="rejected">مرفوض</string>
+    <string name="no_job_found">لم يتم العثور على وظائف</string>
+    <string name="payment_pending">انتظار الدفع</string>
+
+    <!-- Create Job Activity -->
+    <string name="create_job">إنشاء وظيفة</string>
+    <string name="select_category">اختر الفئة</string>
+    <string name="select_professional">حدد محترف</string>
+    <string name="selected_professional">المهنية المختارة</string>
+    <string name="select_date">حدد تاريخ</string>
+    <string name="select_time">حدد الوقت</string>
+    <string name="select_location">اختر موقعا</string>
+    <string name="job_detail">تفاصيل الوظيفة</string>
+    <string name="job_note">ملاحظات مهمة</string>
+    <string name="msg_category_validation">يرجى تحديد الفئة</string>
+    <string name="msg_professional_validation">يرجى اختيار محترف</string>
+    <string name="msg_date_validation">يرجى تحديد التاريخ</string>
+    <string name="msg_time_validation">يرجى تحديد الوقت</string>
+    <string name="msg_location_validation">يرجى تحديد الموقع</string>
+    <string name="msg_job_validation">يرجى إدخال تفاصيل الوظيفة</string>
+    <string name="loc_not_found">الموقع غير موجود</string>
+    <string name="type_address">اكتب العنوان</string>
+    <string name="cal_event_title">اختر حسابًا لمزامنة تقويم Google</string>
+
+    <!-- Coupon Activity -->
+    <string name="no_coupon">لم تتم إضافة قسيمة</string>
+    <string name="lbl_add_coupon">أضف عرض</string>
+    <string name="enter_coupon">أدخل رمز القسيمة</string>
+    <string name="invalid_coupon">قسيمة غير صالحة!</string>
+
+    <!-- Forget Password -->
+    <string name="no_data_found">لاتوجد بيانات</string>
+    <string name="enter_email">أدخل معرف البريد الإلكتروني</string>
+    <string name="send">إرسال</string>
+    <string name="msg_email_invalid">البريد الإلكتروني غير صالح</string>
+
+    <!-- Chat Activity-->
+    <string name="write_msg">اكتب رسالة…</string>
+    <string name="phone_not_found">رقم الجوال غير موجود</string>
+    <string name="msg_validation">يرجى كتابة الرسالة</string>
+    <string name="pick_from">اختار من</string>
+    <string name="no_msg_found">لم يتم العثور على رسالة</string>
+
+    <!-- Profile Activity & Edit-->
+    <string name="profile">الملف الشخصي</string>
+    <string name="edit">تعديل</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="email_address">عنوان بريد الكتروني</string>
+    <string name="dob">تاريخ الولادة</string>
+    <string name="select_gender">حدد نوع الجنس</string>
+    <string name="msg_fname">يرجى إدخال الاسم الأول</string>
+    <string name="msg_dob_validation">يرجى تحديد تاريخ الميلاد</string>
+    <string name="invalid_image_size">حجم الصورة غير صالح</string>
+    <string name="msg_company_validation">يرجى إدخال اسم الشركة</string>
+    <string name="basic_info">معلومات أساسية</string>
+    <string name="basic_and_review">التقييم والمراجعة</string>
+    <string name="phone">هاتف</string>
+    <string name="gender">جنس</string>
+    <string name="service">الخدمات</string>
+    <string name="average_rating">متوسط تقييم</string>
+    <string name="reviews">المراجعات</string>
+
+    <!-- Private Message -->
+    <string name="message">الرسائل</string>
+
+    <!-- Account Setting Activity-->
+    <string name="enter_current_pwd">إدخل كلمة السر الحالية</string>
+    <string name="enter_new_pwd">أدخل كلمة المرور الجديدة</string>
+    <string name="enter_confirm_pwd">تأكيد كلمة المرور الجديدة</string>
+    <string name="alert">إنذار</string>
+    <string name="msg_logout">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+    <string name="msg_current_pwd_validation">يرجى إدخال كلمة المرور الحالية</string>
+    <string name="msg_new_pwd_validation">يرجى إدخال كلمة المرور الجديدة</string>
+    <string name="msg_new_pwd_minimum_required">مطلوب ثمانية أحرف على الأقل لكلمة المرور الجديدة</string>
+    <string name="msg_confirm_pwd_validation">يرجى إدخال تأكيد كلمة المرور</string>
+    <string name="msg_pwd_not_match">تأكيد كلمة المرور غير متطابق</string>
+    <string name="select_lang">اختار اللغة</string>
+    <string name="default_nav_map">خريطة الملاحة الافتراضية</string>
+    <string name="book">كتاب</string>
+    <string name="post_a_job">انشر وظيفة</string>
+    <string name="call">مكالمة</string>
+    <string name="search_here">ابحث هنا..</string>
+    <string name="find_direction">إيجاد الاتجاه ..!</string>
+    <string name="msg_origin_address">يرجى إدخال عنوان الأصل!</string>
+    <string name="msg_destination_address">يرجى إدخال عنوان الوجهة!</string>
+
+    <!-- Customer Home -->
+    <string name="location_not_found">الموقع غير موجود</string>
+    <string name="search_using_location">البحث باستخدام الموقع</string>
+    <string name="find_professional">ابحث عن كلمة أساسية احترافية ، واكتب</string>
+
+    <!-- Professional Home Activity -->
+    <string name="occupied">احتل</string>
+    <string name="on_the_way">علي الطريق</string>
+    <string name="free">حر</string>
+
+    <!-- Job Rate Activity -->
+    <string name="basic_rate">المعدل الأساسي (معدل البدء)</string>
+    <string name="basic_rate_two">المعدل الأساسي (معدل البدء)</string>
+    <string name="hour_rate">معدل ساعة</string>
+    <string name="tex_rate">معدل الضريبة</string>
+
+    <!-- Dispatch Activity -->
+    <string name="upgrade">تطوير</string>
+    <string name="msg_upgrade">يجب عليك الترقية إلى الذهب من أجل استخدام الخيار</string>
+    <string name="upgrade_now">تحديث الآن!</string>
+
+    <!-- Filter Activity -->
+    <string name="lbl_show_on_map">أرني فقط على الخريطة.</string>
+    <string name="save_continue">حفظ ومتابعة</string>
+
+    <!-- Add Service Activity -->
+    <string name="price">السعر</string>
+    <string name="add_keyword">أضف كلمة رئيسية</string>
+    <string name="add">أضف</string>
+    <string name="edit_service">تحرير الخدمة</string>
+    <string name="add_service">أضف خدمة</string>
+    <string name="msg_keyword_validation">يرجى إضافة كلمة رئيسية</string>
+    <string name="msg_service_price_validation">يرجى إضافة سعر الخدمة</string>
+    <string name="msg_invalid_price">سعر غير صالح</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+
+    <!-- Job Detail Activity -->
+    <string name="customer_detail">تفاصيل العميل</string>
+    <string name="professional_detail">تفاصيل احترافية</string>
+    <string name="job_id">معرف الوظيفة</string>
+    <string name="job_date">تاريخ الوظيفة</string>
+    <string name="job_date_and_time">تاريخ ووقت الوظيفة</string>
+    <string name="started_job_At">بدأ العمل في</string>
+    <string name="completed_job_At">تم إكمال المهمة في</string>
+    <string name="job_time">وقت العمل</string>
+    <string name="job_location">مكان العمل</string>
+    <string name="job_status">الحالة الوظيفية</string>
+    <string name="job_status_new">الحالة الوظيفية:</string>
+    <string name="job_remarks">ملاحظات الوظيفة</string>
+    <string name="job_review_and_ratings">مراجعة وتقييم</string>
+    <string name="accept">قبول</string>
+    <string name="reject">رفض</string>
+    <string name="rating_and_review">التقييم والمراجعة</string>
+    <string name="add_review">إضافة مراجعة</string>
+    <string name="add_rating">أضف تقييمًا</string>
+    <string name="create_invoice">إنشاء فاتورة</string>
+    <string name="view_invoice">عرض الفاتورة</string>
+    <string name="give_rating">منح التقييم</string>
+    <string name="edit_review">تحرير مراجعة</string>
+    <string name="start_job">ابدأ المهمة</string>
+    <string name="arrived">وصل</string>
+    <string name="navigate_me">انتقل لي</string>
+    <string name="complete_job">أكمل المهمة</string>
+    <string name="cash_payment_conform">تأكيد الدفعة</string>
+    <string name="cash_payment_conform_msg">هل تقبل النقد من الزبون؟</string>
+    <string name="make_payment">قم بالدفع</string>
+    <string name="track">المسار</string>
+    <string name="track_map">خريطة المسار</string>
+    <string name="view_in_map">عرض في الخريطة</string>
+    <string name="ride_info_not_found">لم يتم العثور على معلومات ركوب</string>
+
+    <!-- Create Invoice -->
+    <string name="sent_to_customer">أرسل إلى الزبون</string>
+    <string name="basic_rate_single">المعدل الاساسي</string>
+    <string name="work_hours">ساعات العمل (HH: mm)</string>
+    <string name="part_name">اسم الأجزاء</string>
+    <string name="parts_rate">معدل الجزء</string>
+    <string name="parts_drives">قطع غيار / محركات</string>
+    <string name="discount">خصم</string>
+    <string name="tax">ضريبة</string>
+    <string name="notes">ملاحظات:</string>
+    <string name="msg_basic_rate_validation">الرجاء إدخال المعدل الأساسي</string>
+    <string name="msg_hour_rate_validation">يرجى إدخال معدل الساعة</string>
+    <string name="msg_work_hour_validation">الرجاء إدخال ساعات العمل</string>
+    <string name="msg_part_validation">يرجى إدخال اسم الجزء</string>
+    <string name="msg_part_rate_validation">يرجى إدخال سعر الجزء</string>
+    <string name="msg_tax_validation">الرجاء إدخال الضريبة</string>
+
+    <!-- View invoice -->
+    <string name="pay">دفع</string>
+    <string name="job_booking_id">معرف الحجز الوظيفي</string>
+    <string name="working_hour">ساعات العمل</string>
+    <string name="working_hour_rate">معدل ساعات العمل</string>
+    <string name="tax_rate">معدل الضريبة</string>
+    <string name="tip">تلميح</string>
+    <string name="total">مجموع</string>
+    <string name="grand_total">المجموع الكلي</string>
+    <string name="payment_method">طريقة الدفع او السداد</string>
+    <string name="subtotal">المجموع الفرعي</string>
+    <string name="ad_tip">نصائح إعلانية للمحترفين</string>
+    <string name="tip_msg">نصيحة للمحترفين</string>
+    <string name="tip_amount">مبلغ الإكرامية</string>
+    <string name="pay_by">ادفع عن طريق:</string>
+    <string name="payment_canceled">تم إلغاء الدفع من قبل المستخدم</string>
+    <string name="lbl_not_payment_option">يبدو أن المحترف لم يختار بعد طريقة الدفع. يرجى الاتصال بالمحترف لإجراء الدفع.</string>
+
+    <!-- Rating and Review -->
+    <string name="rating_msg_one">شكرا لك على استخدام تطبيق Parnasa. آمل أن أراك قريبًا ، يرجى مشاركة تطبيقنا مع الأصدقاء والعائلة من خلال القائمة.</string>
+    <string name="rating_msg_two">يرجى تقييم محترف و / أو حفظ محترف في المفضلة:</string>
+    <string name="rating_msg_two_for_customer">يرجى تقييم العميل و / أو حفظ العميل في المفضلة:</string>
+    <string name="rating_validation">يرجى إضافة تصنيف</string>
+    <string name="review_validation">يرجى إضافة مراجعة</string>
+    <string name="add_prof_to_fav">أضف محترف إلى المفضلة</string>
+    <string name="add_cus_to_fav">أضف العملاء إلى المفضلة</string>
+    <string name="you_choose_to_cash">اخترت أن تدفع نقدا</string>
+    <string name="please_pay">يرجى الدفع</string>
+    <string name="cash_to_driver">نقدا للسائق</string>
+    <string name="comment_here">التعليق هنا ...</string>
+
+    <!-- Search Service-->
+    <string name="search_service">خدمة البحث</string>
+    <string name="no_search_result_found">لم يتم العثور على نتيجة بحث</string>
+    <string name="msg_one">الرجاء الضغط أدناه للإضافة</string>
+    <string name="msg_two">كخدمة جديدة.</string>
+
+    <!-- Profile Detail Three -->
+    <string name="i_accept">موافق :</string>
+    <string name="cash">السيولة النقدية</string>
+    <string name="my">لي</string>
+    <string name="id">هوية شخصية :</string>
+    <string name="lbl_papal">إذا قبلت أيضًا PayPal ، فسيتمكن العملاء من الدفع لك من خلال PayPal.</string>
+    <string name="silver">فضة</string>
+    <string name="gold">ذهب</string>
+    <string name="lbl_msg_silver">أساسي مع خيار قياسي ، مناسب للمحترفين الفرديين.</string>
+    <string name="msg_payment_mode_validation">يرجى تحديد وضع دفع واحد على الأقل</string>
+    <string name="msg_paypal_validation">يرجى إدخال paypalId</string>
+    <string name="msg_paypal_invalid">请输入有效的paypalId</string>
+    <string name="msg_membership_validation">يرجى تحديد العضوية الفضية أو الذهبية</string>
+    <string name="monthly">شهريا</string>
+    <string name="yearly">سنوي</string>
+    <string name="my_paypal_id">معرف PayPal الخاص بي</string>
+    <string name="basic_with_minimum">الأساسية مع الحد الأدنى</string>
+    <string name="offer">عرض</string>
+    <string name="for_lbl">إلى عن على</string>
+    <string name="year">عام</string>
+    <string name="months_free">أشهر مجانية</string>
+    <string name="for_one">ل 1</string>
+    <string name="offer_for">عرض لمدة 12</string>
+    <string name="dialog_msg_one">لديك خيار لخطة العضوية الفضية. يرجى الدفع</string>
+    <string name="dialog_msg_two">باستخدام الخيارات أدناه.</string>
+    <string name="registration_fee">رسوم التسجيل</string>
+    <string name="registration_fee_msg">هذا رسم لمرة واحدة عليك دفعه قبل البدء في استخدام هذا التطبيق.</string>
+    <string name="validation_registration_fee_msg">لم يتم العثور على رسوم التسجيل</string>
+
+    <!-- Professional Signup step last-->
+    <string name="subscription_fee">رسم الاشتراك:</string>
+    <string name="validation_msg_of_subscription">لم يتم العثور على تفاصيل الاشتراك</string>
+
+    <!-- GPS disable activity -->
+    <string name="loc_service_off">إيقاف تشغيل خدمة الموقع</string>
+    <string name="lbl_gps">يبدو أن إعدادات الخصوصية الخاصة بك تمنعنا من الوصول إلى موقعك للعثور على الخدمات. يمكنك إصلاح ذلك عن طريق القيام بما يلي:</string>
+    <string name="step_one">1. أغلق هذا التطبيق.</string>
+    <string name="step_two">2. افتح تطبيق الإعدادات.</string>
+    <string name="step_three">3. قم بالتمرير إلى الأسفل وحدد هذا التطبيق في القائمة.</string>
+    <string name="step_four">4. قم بتشغيل الموقع.</string>
+    <string name="step_five">5. افتح هذا التطبيق وحاول مرة أخرى.</string>
+    <string name="turn_on">شغله</string>
+
+    <!-- Payment -->
+    <string name="select_payment">الدفع بواسطة :</string>
+
+    <!-- Tracking-->
+    <string name="driver_arrival_at_loc">وصول السائق إلى موقعك</string>
+    <string name="eta">الوقت المقدر للوصول</string>
+
+    <!-- Account Setting fragment-->
+    <string name="account_setting">إعدادات الحساب</string>
+    <string name="change_pwd">تغيير كلمة المرور</string>
+    <string name="default_navigation_system">نظام الملاحة الافتراضي</string>
+    <string name="change_language">تغيير اللغة</string>
+
+    <string-array name="selectionOfGender">
+        <item>حدد نوع الجنس</item>
+        <item>الذكر</item>
+        <item>أنثى</item>
+    </string-array>
+
+</resources>

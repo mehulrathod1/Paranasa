@@ -1,0 +1,445 @@
+<resources>
+
+    <string name="title_activity_verification_code">Код подтверждения</string>
+    <string name="title_activity_main">Основное занятие</string>
+    <string name="title_activity_profile_details_one">Детали профиля Один</string>
+    <string name="title_activity_verifycode">Проверить код</string>
+    <string name="title_activity_profile_details_two">Детали профиля Два</string>
+    <string name="title_activity_profile_details_three">Детали профиля Три</string>
+    <string name="title_activity_service_list">Перечень услуг</string>
+    <string name="title_activity_payment_via">Оплата через</string>
+    <string name="title_activity_payment__via">Оплата через</string>
+    <string name="title_activity_invoice">Выставленный счет</string>
+    <string name="title_activity_add_rating">הוסף דירוג</string>
+    <string name="title_activity_job_break_up">Распределение работы</string>
+    <string name="some_thing_wrong">Что-то пошло не так</string>
+    <string name="no_social_type">Социальный тип не найден</string>
+    <string name="search_msg">Поиск сообщения</string>
+    <string name="map_of_google">карта</string>
+    <string name="no_waze_app_found">Приложение Waze не найдено, установите сначала</string>
+    <string name="msg_validation_default_nav_sys">Пожалуйста, проверьте один из них</string>
+    <string name="invite_content">Привет, я использую это классное приложение под названием Parnasa ™ ️ Services. Это хорошее приложение, если вы являетесь поставщиком услуг или вам нужна какая-либо услуга из более чем 60 категорий. Загрузите его из PlayStore</string>
+    <string name="home">Дом</string>
+    <string name="cant_fetch_location">не могу получить местоположение</string>
+    <string name="report">отчет</string>
+    <string name="select_map">Выберите карту</string>
+    <string name="new_notification">Новое уведомление</string>
+    <string name="job_post">Работа была размещена для вас</string>
+    <string name="view_lbl">Посмотреть</string>
+
+    <!-- Fingerprint Auth Activity -->
+    <string name="fingerprint_auth_instructions">Place your fingertip on the sensor to verify your identity</string>
+    <string name="fingerprint_title">Аутентификация по отпечатку пальца</string>
+    <string name="fingerprint_msg">Хотите добавить аутентификацию по отпечатку пальца?</string>
+    <string name="google_map">Google Map</string>
+    <string name="waze_map">Waze Map</string>
+
+    <!-- User Type -->
+    <string name="lbl_professional_selection">Выберите это, если вы профессионал:</string>
+    <string name="lbl_customer_selection">Выберите это, если вы являетесь клиентом:</string>
+    <string name="lbl_professional_sub_selection">Зарегистрируйтесь и клиент может позвонить вам.</string>
+    <string name="lbl_customer_sub_selection">Зарегистрируйтесь бесплатно и начинайте звонить профессионалам.</string>
+
+    <!-- Professional Type -->
+    <string name="lbl_professional_sole">Вы единственный работник в собственной компании?</string>
+    <string name="lbl_professional_agent">Вы сотрудник или агент до 20 работников?</string>
+    <string name="lbl_choose">Выберите этот экран!</string>
+
+    <!-- Login Activity -->
+    <string name="signup">зарегистрироваться</string>
+    <string name="lbl_already_verify">Если вы уже подтвержденный пользователь, пожалуйста, войдите</string>
+    <string name="user_name_email">Имя пользователя (E-mail)</string>
+    <string name="password">пароль</string>
+    <string name="login">Авторизоваться</string>
+    <string name="forgot_password">Забыл пароль</string>
+    <string name="lbl_social">или соединиться с социальным</string>
+    <string name="msg_email_validation">Пожалуйста, введите адрес электронной почты</string>
+    <string name="msg_password_validation">Пожалуйста введите пароль</string>
+    <string name="msg_facebook_login_error">К сожалению. Мы не можем получить вашу информацию. Пожалуйста, измените настройки конфиденциальности и попробуйте снова</string>
+    <string name="msg_facebook_login_failed">Ошибка. Пожалуйста, зарегистрируйтесь с электронной почтой</string>
+    <string name="msg_googleapi_not_connect">Google API не подключен</string>
+    <string name="msg_google_login_failed">Вход в систему не удался</string>
+    <string name="msg_network_error">Сетевая ошибка !</string>
+    <string name="msg_finger_print_not_support">Ваше устройство не поддерживает аутентификацию по отпечатку пальца</string>
+    <string name="msg_enable_finger_permission">Пожалуйста, включите разрешение отпечатков пальцев</string>
+    <string name="msg_no_finger_config">Нет настроенного отпечатка пальца. Пожалуйста, зарегистрируйте хотя бы один отпечаток в настройках вашего устройства</string>
+    <string name="msg_lock_security">Пожалуйста, включите защиту экрана блокировки в настройках вашего устройства</string>
+    <string name="finger_auth_error">Ошибка аутентификации</string>
+    <string name="finger_auth_failed">Ошибка аутентификации</string>
+    <string name="finger_auth_help">Справка по аутентификации</string>
+    <string name="finger_auth_success">Успешная аутентификация!</string>
+    <string name="save_and_next">Сохранить и далее</string>
+    <string name="signup_lbl_msg">Перед использованием приложения, пожалуйста, заполните ниже информацию</string>
+    <string name="search_location">Поиск местоположения</string>
+    <string name="address">Адрес</string>
+    <string name="login_with_touch">или войдите с помощью Touch ID</string>
+
+    <!-- Sing up Activity -->
+    <string name="lbl_quick_register">Быстрая регистрация</string>
+    <string name="email">Эл. адрес</string>
+    <string name="male">мужчина</string>
+    <string name="female">женский</string>
+    <string name="name">название</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="phone_number">Телефонный номер</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="service_name">наименование услуги</string>
+    <string name="enter_service_name">Введите название сервиса</string>
+    <string name="service_and_branch">Сервисное ключевое слово / филиал</string>
+    <string name="enter_keyword">Введите ключевое слово</string>
+    <string name="address_location">Адрес / Расположение</string>
+    <string name="enter_address">Введите адрес</string>
+    <string name="policy_one">Я согласен и принимаю</string>
+    <string name="policy_two">политика конфиденциальности</string>
+    <string name="policy_three">и</string>
+    <string name="policy_four">Условия эксплуатации</string>
+    <string name="submit">Разместить</string>
+    <string name="submit_review">добавить отзыв</string>
+    <string name="submited_review">Отзыв отправлен!</string>
+    <string name="msg_review_submitted">Вы уже отправили отзыв!</string>
+    <string name="msg_sms_info">Вы получите смс или код электронной почты ...</string>
+    <string name="from_camera">С камеры</string>
+    <string name="camera_roll">С камеры ролл</string>
+    <string name="cancel">Отмена</string>
+    <string name="add_photo">Добавить фото</string>
+    <string name="select_file">Выбрать файл</string>
+    <string name="permission_denied">Доступ запрещен</string>
+    <string name="upload_photo">Загрузка фото…</string>
+    <string name="please_wait">Пожалуйста, подождите…</string>
+    <string name="service_time_out">Тайм-аут сервера. Пожалуйста, попробуйте позже.</string>
+    <string name="ok">хорошо</string>
+    <string name="msg_gender_validation">Пожалуйста, выберите пол</string>
+    <string name="msg_fname_validation">Пожалуйста, введите имя</string>
+    <string name="msg_lname_validation">Пожалуйста, введите фамилию</string>
+    <string name="msg_phone_validation">Пожалуйста, введите номер телефона</string>
+    <string name="msg_password_minimum_validation">Пароль должен содержать не менее восьми символов</string>
+    <string name="msg_address">Пожалуйста, введите адрес / местоположение</string>
+    <string name="msg_address_validation">Пожалуйста, введите адрес</string>
+    <string name="msg_service_name">Пожалуйста, введите название сервиса</string>
+    <string name="search_your_profession">Введите / найдите свою профессию</string>
+    <string name="type_your_skill">Введите свой навык</string>
+    <string name="add_keyword_skill">Введите ключевые слова и навыки</string>
+    <string name="welcome">желанный</string>
+    <string name="msg_profession_validation">Ваша профессия обязательна</string>
+    <string name="company_name">название компании</string>
+    <string name="unable_signup">Агентство не может войти через соц.</string>
+
+    <!-- Verify Activity -->
+    <string name="verification_coe_validation">Пожалуйста, введите код подтверждения</string>
+    <string name="verification_code">Код подтверждения</string>
+    <string name="sms_verification_code">Код подтверждения SMS</string>
+    <string name="email_verification_code">Код подтверждения адреса электронной почты</string>
+    <string name="add_sms_verification_code">Добавить код подтверждения смс</string>
+    <string name="add_email_verification_code">Добавьте код подтверждения электронной почты</string>
+    <string name="v_code">Повторно отправить код подтверждения SMS</string>
+    <string name="ve_code">Отправить код подтверждения по электронной почте</string>
+    <string name="or">Или</string>
+    <string name="confirmation">подтверждение</string>
+    <string name="conform_msg">Хотите повторно отправить код на тот же номер мобильного телефона?</string>
+    <string name="enter_new_mobile">Введите новый номер мобильного телефона</string>
+    <string name="validation_new_mobile_msg">Пожалуйста, введите новый номер мобильного телефона</string>
+
+    <!-- Navigation Menu-->
+    <string name="payment">Оплата</string>
+    <string name="your_jobs">Ваши рабочие места</string>
+    <string name="coupon">Купон</string>
+    <string name="favorites">Избранные</string>
+    <string name="inbox">входящие</string>
+    <string name="wallet">Бумажник</string>
+    <string name="invite">приглашение</string>
+    <string name="settings">настройки</string>
+    <string name="help">Помогите</string>
+    <string name="logout">Выйти</string>
+    <string name="manage_service">Управление Сервисом</string>
+    <string name="filter">Фильтр</string>
+    <string name="dispatch">отправка</string>
+    <string name="job_rate">Уровень работы</string>
+
+    <!-- Payment Activity -->
+    <string name="case_pay">случай</string>
+    <string name="paypal">Paypal</string>
+    <string name="other">Другой</string>
+    <string name="save">Сохранить</string>
+    <string name="save_send">Сохранить Отправить</string>
+
+    <!-- Your Jobs Activity -->
+    <string name="pending">В ожидании</string>
+    <string name="new_status">новый</string>
+    <string name="ongoing">постоянный</string>
+    <string name="upcomming">ПРЕДСТОЯЩИЕ</string>
+    <string name="completed">Завершенный</string>
+    <string name="rejected">Отклонено</string>
+    <string name="no_job_found">Работы не найдены</string>
+    <string name="payment_pending">Платеж в ожидании</string>
+
+    <!-- Create Job Activity -->
+    <string name="create_job">Создать работу</string>
+    <string name="select_category">выберите категорию</string>
+    <string name="select_professional">Выберите Профессионал</string>
+    <string name="selected_professional">Выбранный профессионал</string>
+    <string name="select_date">Выберите дату</string>
+    <string name="select_time">Выберите время</string>
+    <string name="select_location">Выберите место</string>
+    <string name="job_detail">Детали работы</string>
+    <string name="job_note">Заметки о работе</string>
+    <string name="msg_category_validation">Пожалуйста, выберите категорию</string>
+    <string name="msg_professional_validation">Пожалуйста, выберите профессионала</string>
+    <string name="msg_date_validation">Пожалуйста, выберите дату</string>
+    <string name="msg_time_validation">Пожалуйста, выберите время</string>
+    <string name="msg_location_validation">Пожалуйста, выберите местоположение</string>
+    <string name="msg_job_validation">Пожалуйста, введите детали работы</string>
+    <string name="loc_not_found">Местоположение не найдено</string>
+    <string name="type_address">Введите адрес</string>
+    <string name="cal_event_title">Выберите аккаунт для синхронизации календаря Google</string>
+
+    <!-- Coupon Activity -->
+    <string name="no_coupon">Купон не добавлен</string>
+    <string name="lbl_add_coupon">Добавить купон</string>
+    <string name="enter_coupon">Введите код купона</string>
+    <string name="invalid_coupon">Неверный купон!</string>
+
+    <!-- Forget Password -->
+    <string name="no_data_found">Данные не найдены</string>
+    <string name="enter_email">Введите адрес электронной почты</string>
+    <string name="send">послать</string>
+    <string name="msg_email_invalid">Неверный идентификатор электронной почты</string>
+
+    <!-- Chat Activity-->
+    <string name="write_msg">Напиши сообщение…</string>
+    <string name="phone_not_found">Номер мобильного телефона не найден</string>
+    <string name="msg_validation">Пожалуйста, напишите сообщение</string>
+    <string name="pick_from">Выбрать из</string>
+    <string name="no_msg_found">Сообщение не найдено</string>
+
+    <!-- Profile Activity & Edit-->
+    <string name="profile">Профиль</string>
+    <string name="edit">редактировать</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="email_address">Адрес электронной почты</string>
+    <string name="dob">Дата рождения (ГГГГ-ММ-ДД)</string>
+    <string name="select_gender">Выберите пол</string>
+    <string name="msg_fname">Пожалуйста, введите имя</string>
+    <string name="msg_dob_validation">Пожалуйста, выберите дату рождения</string>
+    <string name="invalid_image_size">Неверный размер изображения</string>
+    <string name="msg_company_validation">Пожалуйста, введите название компании</string>
+    <string name="basic_info">Базовая информация</string>
+    <string name="basic_and_review">Рейтинг и обзор</string>
+    <string name="phone">Телефон</string>
+    <string name="gender">Пол</string>
+    <string name="service">обслуживание</string>
+    <string name="average_rating">Средний рейтинг</string>
+    <string name="reviews">Отзывы</string>
+
+    <!-- Private Message -->
+    <string name="message">Сообщения</string>
+
+    <!-- Account Setting Activity-->
+    <string name="enter_current_pwd">Введите текущий пароль</string>
+    <string name="enter_new_pwd">Введите новый пароль</string>
+    <string name="enter_confirm_pwd">Подтвердите новый пароль</string>
+    <string name="alert">бдительный</string>
+    <string name="msg_logout">Вы действительно хотите выйти?</string>
+    <string name="msg_current_pwd_validation">Пожалуйста, введите текущий пароль</string>
+    <string name="msg_new_pwd_validation">Пожалуйста, введите новый пароль</string>
+    <string name="msg_new_pwd_minimum_required">Для нового пароля требуется минимум восемь символов</string>
+    <string name="msg_confirm_pwd_validation">Пожалуйста, введите подтвердить пароль</string>
+    <string name="msg_pwd_not_match">Подтвердите пароль не совпадает</string>
+    <string name="select_lang">Выберите язык</string>
+    <string name="default_nav_map">Карта навигации по умолчанию</string>
+    <string name="book">Книга</string>
+    <string name="post_a_job">Разместить вакансию</string>
+    <string name="call">Вызов</string>
+    <string name="search_here">Поищи здесь..</string>
+    <string name="find_direction">Нахождение направления ..!</string>
+    <string name="msg_origin_address">Пожалуйста, введите адрес отправителя!</string>
+    <string name="msg_destination_address">Пожалуйста, введите адрес назначения!</string>
+
+    <!-- Customer Home -->
+    <string name="location_not_found">Местоположение не найдено</string>
+    <string name="search_using_location">Поиск с использованием местоположения</string>
+    <string name="find_professional">Найдите профессионала, введите ключевое слово</string>
+
+    <!-- Professional Home Activity -->
+    <string name="occupied">ЗАНЯТО</string>
+    <string name="on_the_way">В ДОРОГЕ</string>
+    <string name="free">СВОБОДНЫЙ</string>
+
+    <!-- Job Rate Activity -->
+    <string name="basic_rate">Базовая ставка (Начальная ставка)</string>
+    <string name="basic_rate_two">Базовая ставка (Начальная ставка)</string>
+    <string name="hour_rate">Часовая ставка</string>
+    <string name="tex_rate">Ставка налога</string>
+
+    <!-- Dispatch Activity -->
+    <string name="upgrade">Обновить</string>
+    <string name="msg_upgrade">Вы должны перейти на золото, чтобы использовать эту опцию</string>
+    <string name="upgrade_now">Обнови сейчас!</string>
+
+    <!-- Filter Activity -->
+    <string name="lbl_show_on_map">Показать только меня на карте.</string>
+    <string name="save_continue">Сохранить и продолжить</string>
+
+    <!-- Add Service Activity -->
+    <string name="price">Цена</string>
+    <string name="add_keyword">Добавить ключевое слово</string>
+    <string name="add">Добавить</string>
+    <string name="edit_service">Редактировать Сервис</string>
+    <string name="add_service">Добавить сервис</string>
+    <string name="msg_keyword_validation">Пожалуйста, добавьте ключевое слово</string>
+    <string name="msg_service_price_validation">Пожалуйста, добавьте стоимость услуги</string>
+    <string name="msg_invalid_price">Неверная цена</string>
+    <string name="no">нет</string>
+    <string name="yes">да</string>
+
+    <!-- Job Detail Activity -->
+    <string name="customer_detail">Данные клиента</string>
+    <string name="professional_detail">Профессиональные детали</string>
+    <string name="job_id">ID работы</string>
+    <string name="job_date">Дата работы</string>
+    <string name="job_date_and_time">Дата и время работы</string>
+    <string name="started_job_At">Начал работу в</string>
+    <string name="completed_job_At">Завершенная работа в</string>
+    <string name="job_time">Время работы</string>
+    <string name="job_location">место работы</string>
+    <string name="job_status">Рабочий статус:</string>
+    <string name="job_status_new">Рабочий статус:</string>
+    <string name="job_remarks">Работа Примечания</string>
+    <string name="job_review_and_ratings">Обзор и рейтинги</string>
+    <string name="accept">принимать</string>
+    <string name="reject">отклонять</string>
+    <string name="rating_and_review">Рейтинг и обзор</string>
+    <string name="add_review">Добавить отзыв</string>
+    <string name="add_rating">Добавить рейтинг</string>
+    <string name="create_invoice">Создать счет</string>
+    <string name="view_invoice">Посмотреть счет</string>
+    <string name="give_rating">Дать оценку</string>
+    <string name="edit_review">Редактировать обзор</string>
+    <string name="start_job">Начать работу</string>
+    <string name="arrived">Прибывший</string>
+    <string name="navigate_me">Проведи меня</string>
+    <string name="complete_job">Завершить работу</string>
+    <string name="cash_payment_conform">Подтверждение об оплате</string>
+    <string name="cash_payment_conform_msg">Принимаете ли вы наличные от клиента?</string>
+    <string name="make_payment">Совершать платеж</string>
+    <string name="track">трек</string>
+    <string name="track_map">Трек Карта</string>
+    <string name="view_in_map">תצוגה במפה</string>
+    <string name="ride_info_not_found">מידע על הרכיבה לא נמצא</string>
+
+    <!-- Create Invoice -->
+    <string name="sent_to_customer">Отправить клиенту</string>
+    <string name="basic_rate_single">Основная ставка</string>
+    <string name="work_hours">Рабочие часы (ЧЧ: мм)</string>
+    <string name="part_name">Название частей</string>
+    <string name="parts_rate">Частичная ставка</string>
+    <string name="parts_drives">Части / Приводы</string>
+    <string name="discount">скидка</string>
+    <string name="tax">налог</string>
+    <string name="notes">Ноты:</string>
+    <string name="msg_basic_rate_validation">Пожалуйста, введите основной тариф</string>
+    <string name="msg_hour_rate_validation">Пожалуйста, введите часовую ставку</string>
+    <string name="msg_work_hour_validation">Пожалуйста, введите рабочее время</string>
+    <string name="msg_part_validation">Пожалуйста, введите название детали</string>
+    <string name="msg_part_rate_validation">Пожалуйста, введите ставку</string>
+    <string name="msg_tax_validation">Пожалуйста, введите налог</string>
+
+    <!-- View invoice -->
+    <string name="pay">Оплатить</string>
+    <string name="job_booking_id">Идентификатор заказа на работу</string>
+    <string name="working_hour">Рабочее время</string>
+    <string name="working_hour_rate">Рабочий час</string>
+    <string name="tax_rate">Ставка налога</string>
+    <string name="tip">Подсказка</string>
+    <string name="total">Всего</string>
+    <string name="grand_total">Общая сумма</string>
+    <string name="payment_method">Способ оплаты</string>
+    <string name="subtotal">Промежуточный итог</string>
+    <string name="ad_tip">Рекламные советы для профессионалов</string>
+    <string name="tip_msg">Совет для профессионалов</string>
+    <string name="tip_amount">Сумма чаевых</string>
+    <string name="pay_by">Платить с помощью:</string>
+    <string name="payment_canceled">Платеж отменен пользователем</string>
+    <string name="lbl_not_payment_option">Похоже, профессионал еще не выбрал способ оплаты. Пожалуйста, свяжитесь с профессионалом, чтобы произвести оплату.</string>
+
+    <!-- Rating and Review -->
+    <string name="rating_msg_one">Спасибо за использование приложения Parnasa. Надеюсь увидеть вас в ближайшее время. Пожалуйста, поделитесь нашим приложением с друзьями и семьей через меню.</string>
+    <string name="rating_msg_two">Пожалуйста, оцените профессионала и / или сохраните профессионала в избранном:</string>
+    <string name="rating_msg_two_for_customer">Пожалуйста, оцените клиента и / или сохранить клиента в избранном:</string>
+    <string name="rating_validation">Пожалуйста, добавьте рейтинг</string>
+    <string name="review_validation">Пожалуйста, добавьте отзыв</string>
+    <string name="add_prof_to_fav">Добавить профессионала в избранное</string>
+    <string name="add_cus_to_fav">Добавить клиента в избранное</string>
+    <string name="you_choose_to_cash">Вы решили платить наличными</string>
+    <string name="please_pay">Пожалуйста оплатите</string>
+    <string name="cash_to_driver">Наличными водителю</string>
+    <string name="comment_here">Комментарий здесь ...</string>
+
+    <!-- Search Service-->
+    <string name="search_service">Служба поиска</string>
+    <string name="no_search_result_found">Результаты поиска не найдены</string>
+    <string name="msg_one">Пожалуйста, нажмите ниже, чтобы добавить</string>
+    <string name="msg_two">как новый сервис.</string>
+
+    <!-- Profile Detail Three -->
+    <string name="i_accept">Я принимаю :</string>
+    <string name="cash">Денежные средства</string>
+    <string name="my">мой</string>
+    <string name="id">МНЕ БЫ :</string>
+    <string name="lbl_papal">Если вы также принимаете PayPal, клиенты смогут оплатить вас через PayPal.</string>
+    <string name="silver">Серебряный</string>
+    <string name="gold">Золото</string>
+    <string name="lbl_msg_silver">Базовый со стандартными опциями, Подходит для индивидуального профессионала.</string>
+    <string name="msg_payment_mode_validation">Пожалуйста, выберите хотя бы один способ оплаты</string>
+    <string name="msg_paypal_validation">Пожалуйста, введите PayPal Id</string>
+    <string name="msg_paypal_invalid">Пожалуйста, введите действительный идентификатор PayPal</string>
+    <string name="msg_membership_validation">Пожалуйста, выберите серебряное или золотое членство</string>
+    <string name="monthly">ежемесячно</string>
+    <string name="yearly">каждый год</string>
+    <string name="my_paypal_id">Мой PayPal ID</string>
+    <string name="basic_with_minimum">базовый с минимальным</string>
+    <string name="offer">Предлагает</string>
+    <string name="for_lbl">за</string>
+    <string name="year">год</string>
+    <string name="months_free">месяцев бесплатно</string>
+    <string name="for_one">за 1</string>
+    <string name="offer_for">предложение на 12</string>
+    <string name="dialog_msg_one">У вас есть возможность получить серебряный тарифный план. Пожалуйста оплатите</string>
+    <string name="dialog_msg_two">используя ниже варианты.</string>
+    <string name="registration_fee">Регистрационный взнос</string>
+    <string name="registration_fee_msg">Это единовременная плата, которую вы должны заплатить, прежде чем начать использовать это приложение.</string>
+    <string name="validation_registration_fee_msg">Регистрационный сбор не найден</string>
+
+    <!-- Professional Signup step last-->
+    <string name="subscription_fee">Абонентская плата:</string>
+    <string name="validation_msg_of_subscription">Детали подписки не найдены</string>
+
+    <!-- GPS disable activity -->
+    <string name="loc_service_off">Служба определения местоположения выключена</string>
+    <string name="lbl_gps">Похоже, что ваши настройки конфиденциальности не позволяют нам получить доступ к вашему местоположению для поиска услуг. Вы можете исправить это, выполнив следующие действия:</string>
+    <string name="step_one">1. Закройте это приложение.</string>
+    <string name="step_two">2. Откройте приложение настроек.</string>
+    <string name="step_three">3. Прокрутите вниз и выберите это приложение в списке.</string>
+    <string name="step_four">4. Включите местоположение.</string>
+    <string name="step_five">5. Откройте это приложение и попробуйте снова.</string>
+    <string name="turn_on">Включи</string>
+
+    <!-- Payment -->
+    <string name="select_payment">Оплата по:</string>
+
+    <!-- Tracking-->
+    <string name="driver_arrival_at_loc">Прибытие водителя к вам</string>
+    <string name="eta">Примерное время прибытия</string>
+
+    <!-- Account Setting fragment-->
+    <string name="account_setting">Настройки аккаунта</string>
+    <string name="change_pwd">Изменить пароль</string>
+    <string name="default_navigation_system">Навигационная система по умолчанию</string>
+    <string name="change_language">Изменить язык</string>
+
+    <string-array name="selectionOfGender">
+        <item>Выберите пол</item>
+        <item>мужчина</item>
+        <item>женский</item>
+    </string-array>
+</resources>

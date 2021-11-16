@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/c_white">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:src="@drawable/blue_back_button" />
+
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/paranasa_logo_icon_512x512px" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_logo"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Phone number"
+                android:textColor="@color/c_light_grey"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <com.hbb20.CountryCodePicker
+                    android:id="@+id/spin_code"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    app:ccp_autoDetectCountry="true"
+                    app:ccp_defaultNameCode="BR" />
+
+                <EditText
+                    android:id="@+id/edt_phone_no"
+                    android:layout_width="0dp"
+                    android:textAlignment="viewStart"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.6"
+                    android:background="@drawable/edt_bg"
+                    android:hint="phone number"
+                    android:inputType="phone"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Address"
+                android:textColor="@color/c_light_grey"
+                android:textSize="18sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoTxtAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="viewStart"
+                android:background="@drawable/edt_bg"
+                android:hint="Enter Address"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:lines="2"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Select Birthdate"
+                android:textColor="@color/c_light_grey"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edtBDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edt_bg"
+                android:clickable="true"
+                android:focusable="false"
+                android:hint="yyyy-mm-dd"
+                android:textAlignment="viewStart"
+                android:lines="1"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Select Gender"
+                android:textColor="@color/c_light_grey"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/myRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Male"
+                    android:textColor="@color/c_light_grey" />
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Female"
+                    android:textColor="@color/c_light_grey" />
+            </RadioGroup>
+
+
+            <Button
+                android:id="@+id/btnSignup"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/edttext"
+                android:layout_marginTop="20dp"
+                android:background="@color/c_btn_blue"
+                android:text="Signup"
+                android:textAllCaps="true"
+                android:textColor="@color/c_white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+

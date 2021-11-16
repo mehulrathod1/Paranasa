@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/c_white">
+
+        <RelativeLayout
+            android:id="@+id/rel_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@drawable/blue_back_button" />
+
+            <ImageView
+                android:id="@+id/img_logo"
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:rotationY="@integer/locale_mirror_flip"
+                android:src="@drawable/paranasa_logo_icon_512x512px" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rel_head"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/job_rate"
+            android:textAllCaps="true"
+            android:textColor="@color/colorTitle"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_sign_in"
+            android:layout_marginTop="10dp"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/roboto"
+                        android:text="@string/basic_rate"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/txtCurrencyBasicRate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_toStartOf="@+id/edt_basic_rate"
+                        android:fontFamily="@font/roboto"
+                        android:text=": &#36;/&#8364;/&#8362; "
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/edt_basic_rate"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/edt_bg"
+                        android:fontFamily="@font/roboto"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="10dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/colorBlack" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="17dp"
+                    android:background="#ece8e8" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/roboto"
+                        android:text="@string/hour_rate"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/txtCurrencyHourRate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_toStartOf="@+id/edt_hour_rate"
+                        android:fontFamily="@font/roboto"
+                        android:text=": &#36;/&#8364;/&#8362; "
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/edt_hour_rate"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/edt_bg"
+                        android:fontFamily="@font/roboto"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="10dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/colorBlack" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="17dp"
+                    android:background="#ece8e8" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/roboto"
+                        android:text="@string/tex_rate"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_toStartOf="@+id/edt_tax_rate"
+                        android:fontFamily="@font/roboto"
+                        android:text=": %  "
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/edt_tax_rate"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/edt_bg"
+                        android:fontFamily="@font/roboto"
+                        android:inputType="numberDecimal"
+                        android:maxLength="3"
+                        android:paddingStart="10dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/colorBlack" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="17dp"
+                    android:background="#ece8e8" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:text="Parts/Drivers"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_toStartOf="@+id/edt_parts_rate"
+                        android:text=": &#8364; "
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/edt_parts_rate"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:background="#f7f3f3"
+                        android:paddingStart="10dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text=""
+                        android:textColor="#b1a8a8" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="20dp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btn_save"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:background="@color/c_btn_blue"
+                        android:fontFamily="@font/roboto"
+                        android:text="@string/save"
+                        android:textColor="@color/c_white" />
+
+                    <Button
+                        android:id="@+id/btn_cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_toEndOf="@id/btn_save"
+                        android:background="@color/colorTitle"
+                        android:fontFamily="@font/roboto"
+                        android:text="@string/cancel"
+                        android:textColor="@color/c_white" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/adMobView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" />
+
+
+    </RelativeLayout>
+</layout>

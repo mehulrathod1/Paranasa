@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/c_white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/adMobView"
+            android:fillViewport="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgBack"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:padding="10dp"
+                    android:rotationY="@integer/locale_mirror_flip"
+                    android:src="@drawable/blue_back_button" />
+
+                <ImageView
+                    android:id="@+id/img_logo"
+                    android:layout_width="160dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/paranasa_logo_icon_512x512px" />
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_logo"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/create_invoice"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="start|center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:paddingStart="8dp"
+                            android:text="@string/basic_rate"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="8dp"
+                            android:text=":"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txtCurrencyBasicRate"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingStart="8dp"
+                            android:text="@string/currency"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/edtBasicRate"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+                            android:background="@drawable/edt_bg"
+                            android:imeOptions="actionNext"
+                            android:inputType="number"
+                            android:paddingStart="8dp"
+                            android:paddingTop="4dp"
+                            android:paddingEnd="8dp"
+                            android:paddingBottom="4dp"
+                            android:text=""
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:paddingStart="8dp"
+                            android:text="@string/hour_rate"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="8dp"
+                            android:text=":"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txtCurrencyHourRate"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingStart="8dp"
+                            android:text="@string/currency"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/edtHoursRate"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+                            android:background="@drawable/edt_bg"
+                            android:imeOptions="actionNext"
+                            android:inputType="number"
+                            android:paddingStart="8dp"
+                            android:paddingTop="4dp"
+                            android:paddingEnd="8dp"
+                            android:paddingBottom="4dp"
+                            android:text=""
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:paddingStart="8dp"
+                            android:text="@string/work_hours"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="8dp"
+                            android:text=":"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingStart="8dp"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/edtWorkHours"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+                            android:background="@drawable/edt_bg"
+                            android:hint="HH:MM"
+                            android:imeOptions="actionNext"
+                            android:inputType="number"
+                            android:paddingStart="8dp"
+                            android:paddingTop="4dp"
+                            android:paddingEnd="8dp"
+                            android:paddingBottom="4dp"
+                            android:text=""
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:paddingStart="8dp"
+                            android:text="@string/part_name"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="8dp"
+                            android:text=":"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingStart="8dp"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/edtPartName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+                            android:background="@drawable/edt_bg"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+                            android:paddingStart="8dp"
+                            android:paddingTop="4dp"
+                            android:paddingEnd="8dp"
+                            android:paddingBottom="4dp"
+                            android:text=""
+                            android:textAlignment="viewStart" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:paddingStart="8dp"
+                            android:text="@string/parts_drives"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="8dp"
+                            android:text=":"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txtCurrencyDrives"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingStart="8dp"
+                            android:text="@string/currency"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/edtPartRate"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+                            android:background="@drawable/edt_bg"
+                            android:imeOptions="actionNext"
+                            android:inputType="number"
+                            android:lines="1"
+                            android:paddingStart="8dp"
+                            android:paddingTop="4dp"
+                            android:paddingEnd="8dp"
+                            android:paddingBottom="4dp"
+                            android:text=""
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:paddingStart="8dp"
+                            android:text="@string/tax_rate"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="8dp"
+                            android:text=":"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingStart="8dp"
+                            android:text="%"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/edtTax"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+                            android:background="@drawable/edt_bg"
+                            android:imeOptions="actionDone"
+                            android:inputType="number"
+                            android:lines="1"
+                            android:paddingStart="8dp"
+                            android:paddingTop="4dp"
+                            android:paddingEnd="8dp"
+                            android:paddingBottom="4dp"
+                            android:text=""
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:paddingStart="8dp"
+                            android:text="@string/discount"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="8dp"
+                            android:text=":"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txtCurrencyDiscount"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingStart="8dp"
+                            android:text="@string/currency"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/edtDiscount"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+                            android:background="@drawable/edt_bg"
+                            android:imeOptions="actionNext"
+                            android:inputType="number"
+                            android:lines="1"
+                            android:paddingStart="8dp"
+                            android:paddingTop="4dp"
+                            android:paddingEnd="8dp"
+                            android:paddingBottom="4dp"
+                            android:text=""
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:paddingStart="8dp"
+                            android:text="@string/notes"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/edtNotes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:background="@drawable/edt_bg"
+                            android:gravity="top|start"
+                            android:lines="4"
+                            android:paddingStart="8dp"
+                            android:paddingTop="4dp"
+                            android:paddingEnd="8dp"
+                            android:paddingBottom="4dp"
+                            android:text=""
+                            android:textAlignment="viewStart" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btnSentToCustomer"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_weight="0.5"
+                            android:background="@color/c_btn_blue"
+                            android:text="@string/save_send"
+                            android:textAllCaps="true"
+                            android:textColor="@color/c_white"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/btnCancel"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_weight="0.5"
+                            android:background="@color/colorTitle"
+                            android:text="@string/cancel"
+                            android:textAllCaps="true"
+                            android:textColor="@color/c_white"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:id="@+id/adMobView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" />
+
+
+    </RelativeLayout>
+</layout>

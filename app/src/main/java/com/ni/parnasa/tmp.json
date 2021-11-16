@@ -1,0 +1,79 @@
+{
+  "message": "Job detail",
+  "status": "Yes",
+  "data": {
+    "job_id": "269",
+    "customer_detail": {
+      "customer_id": "2217",
+      "customer_name": "Dummy Customer",
+      "customer_profile": "https:\/\/pickmeapp.co\/dev_v2\/admin_assets\/images\/users\/male-icon.jpeg",
+      "customer_email": "dummycustomer@mailinator.com",
+      "customer_phone": "+919879156422",
+      "customer_average_rating": 4,
+      "professional_favorited_customer": true,
+      "customer_gender": "male"
+    },
+    "professional_detail": {
+      "professional_id": "2226",
+      "professional_name": "Dummy professional",
+      "professional_profile": "https:\/\/pickmeapp.co\/dev_v2\/admin_assets\/images\/users\/male-icon.jpeg",
+      "lat": "22.297341035679615",
+      "long": "70.79075153449838",
+      "professional_status": "occupy",
+      "service_icon": "https:\/\/pickmeapp.co\/dev_v2\/admin_assets\/images\/service-icon\/red\/1569938451Car-WasherGreen2.png",
+      "pro_average_rating": 4,
+      "customer_favorited_professional": true,
+      "professional_gender": "male"
+    },
+    "location": {
+      "customer_physical_address": "Race Course Rd, Race Course, Sadar, Rajkot, Gujarat 360001, India",
+      "customer_address": "Race Course Rd, Race Course, Sadar, Rajkot, Gujarat 360001, India",
+      "lat": "22.3011721653254",
+      "lng": "70.79025810064766"
+    },
+    "service": "Car Washer",
+    "job": "Test job 15",
+    "job_date": "2020-07-01 12:45:00",
+    "job_price_rate": {
+      "basic_rate": "25",
+      "hour_rate": "10",
+      "tax_rate": "6",
+      "invoice_note": ""
+    },
+    "remarks": "dummy note",
+    "job_status": "On Going",
+    "professional_status_for_job": "occupy",
+    "server_datetime": "2020-07-02 07:47:27",
+    "assign_datetime": "2020-07-02 07:46:46",
+    "completed_datetime": "0000-00-00 00:00:00",
+    "job_rating": {
+      "customer": {
+        "customer_rating": 0,
+        "review_for_customer": ""
+      },
+      "professional": {
+        "professional_rating": 0,
+        "review_for_professional": ""
+      }
+    },
+    "invoice_detail": {
+      "job_booking_id": "",
+      "basic_rate": "",
+      "working_hour": "",
+      "working_hour_rate": "",
+      "parts_name": "",
+      "parts_rate": "",
+      "tax": "",
+      "tax_rate": "",
+      "discount": "",
+      "total": "",
+      "grand_total": "",
+      "payment_method": "",
+      "payment_status": ""
+    },
+    "ride_detail": {},
+    "is_arrived": true,
+    "created_at": "2020-06-22 14:10:10",
+    "updated_at": "2020-07-02 07:46:46"
+  }
+}

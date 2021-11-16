@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.professional.owncompany.ProfileDetailsTwo"
+    tools:showIn="@layout/activity_profile_details_two">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:padding="10dp"
+                android:src="@drawable/blue_back_button" />
+
+
+            <ImageView
+                android:id="@+id/img_logo"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/paranasa_logo_icon_512x512px" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/img_logo"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="Address:"
+                    android:textColor="@color/c_light_grey"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edt_bg"
+                    android:gravity="top"
+                    android:hint="Street Address + Home Number"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:text="City:"
+                    android:textColor="@color/c_light_grey"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/city"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edt_bg"
+                    android:hint="City Name"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:text="Country:"
+                    android:textColor="@color/c_light_grey"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/country"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edt_bg"
+                    android:hint="Select Country"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/dob"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+
+                        android:gravity="left|center"
+                        android:text="Date of Birth:"
+                        android:textColor="@color/c_light_grey"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/showdob"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/dob"
+                        android:background="@drawable/edt_bg"
+                        android:editable="false"
+                        android:hint=""
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="20dp"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+                <DatePicker
+                    android:id="@+id/datepicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:calendarViewShown="false"
+                    android:datePickerMode="spinner">
+
+                </DatePicker>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:gravity="center|left">
+
+                        <Button
+                            android:id="@+id/btn_next"
+                            android:layout_width="200dp"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/len_term"
+                            android:layout_marginBottom="30dp"
+                            android:layout_marginTop="30dp"
+                            android:background="@color/c_btn_blue"
+                            android:paddingLeft="30dp"
+                            android:paddingRight="30dp"
+                            android:text="Save and next"
+                            android:textColor="@color/c_white" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/txt_company"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_toRightOf="@+id/btn_submit"
+                            android:gravity="center"
+                            android:text="2/3"
+                            android:textColor="@color/c_btn_blue"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

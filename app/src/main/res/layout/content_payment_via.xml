@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.customer.Payment_Via"
+    tools:showIn="@layout/activity_payment_via">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel_head">
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:rotationY="@integer/locale_mirror_flip"
+            android:src="@drawable/blue_back_button" />
+
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/paranasa_logo_icon_512x512px" />
+
+    </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:padding="10dp"
+            android:id="@+id/choose"
+            android:text="You Choose to Pay with PAyPal"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="Please Pay"
+            android:textAllCaps="true"
+            android:textColor="@color/c_btn_blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/roboto"
+            android:text="$29.00"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:id="@+id/paymode"
+            android:text="Cash to the professional"
+            android:textAllCaps="true"
+            android:textColor="@color/c_btn_blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="Thanks for using Parnasa App. Hope to see you soon." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="Please share our app with the friends and family through the menu." />
+
+     <!--   <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="Please rate the professional and/or save professional in Favorites"
+            android:textAllCaps="false"
+            android:textColor="@color/c_btn_blue"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:background="@color/c_btn_blue"
+
+                    android:id="@+id/addtofav_ll"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/start"
+                        android:layout_height="40dp" />
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:padding="5dp"
+                        android:gravity="center"
+                        android:id="@+id/addtofav"
+                        android:background="@color/c_btn_blue"
+
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="Add Profetional to favorites"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:background="@color/c_btn_blue"
+                    android:fontFamily="@font/roboto"
+                    android:text="Submit"
+                    android:id="@+id/submit"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>-->
+    </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

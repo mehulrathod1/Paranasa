@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/dispatch"
+            android:icon="@drawable/dispatch"
+            android:title="@string/dispatch" />
+        <item
+            android:id="@+id/job_rate"
+            android:icon="@drawable/job_rate"
+            android:title="@string/job_rate" />
+
+        <!--<item
+            android:id="@+id/filter"
+            android:icon="@drawable/filter"
+            android:title="@string/filter" />-->
+        <item
+            android:id="@+id/payment"
+            android:icon="@drawable/payment"
+            android:title="@string/payment" />
+        <item
+            android:id="@+id/your_jobs"
+            android:icon="@drawable/your_job"
+            android:title="@string/your_jobs" />
+        <!--<item
+            android:id="@+id/navManageService"
+            android:icon="@drawable/ic_manage_service"
+            android:title="@string/manage_service" />
+        -->
+        <item
+            android:id="@+id/coupon"
+            android:icon="@drawable/coupon"
+            android:title="@string/coupon" />
+        <item
+            android:id="@+id/favorites"
+            android:icon="@drawable/favorite"
+            android:title="@string/favorites" />
+        <item
+            android:id="@+id/privateMessages"
+            android:icon="@drawable/ic_inbox"
+            android:title="@string/inbox" />
+        <item
+            android:id="@+id/wallet"
+            android:icon="@drawable/wallet"
+            android:title="@string/wallet" />
+
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/setting"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            android:title="@string/help" />
+
+        <item
+            android:id="@+id/invite"
+            android:icon="@drawable/invite"
+            android:title="@string/invite" />
+
+        <!--<item
+            android:id="@+id/navLogout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />-->
+    </group>
+</menu>

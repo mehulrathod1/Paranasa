@@ -1,0 +1,446 @@
+<resources>
+
+    <string name="title_activity_verification_code">קוד אימות</string>
+    <string name="title_activity_main">פעילות עיקרית</string>
+    <string name="title_activity_profile_details_one">פרופיל 1</string>
+    <string name="title_activity_verifycode">אמת/י קוד</string>
+    <string name="title_activity_profile_details_two">פרופיל 2</string>
+    <string name="title_activity_profile_details_three">פרופיל 3</string>
+    <string name="title_activity_service_list">רשימת שירותים</string>
+    <string name="title_activity_payment_via">תשלום דרך</string>
+    <string name="title_activity_payment__via">תשלום דרך</string>
+    <string name="title_activity_invoice">חשבונית</string>
+    <string name="title_activity_add_rating">הוסיפו דירוג</string>
+    <string name="title_activity_job_break_up">פירוט עבודה</string>
+    <string name="some_thing_wrong">משהו לא תקין</string>
+    <string name="no_social_type">לא נמצאה רשת חברתית</string>
+    <string name="search_msg">חפש הודעה</string>
+    <string name="map_of_google">מפה</string>
+    <string name="no_waze_app_found">לא נמצא יישום הווייז, אנא התקינו ווייז</string>
+    <string name="msg_validation_default_nav_sys">אנא בחרו אחד מהם</string>
+    <string name="invite_content">היי, אני משתמש/ת ביישום מגניב שנקרא Parnasa™️ Services. זה יישום טוב אם את/ה בעל מקצוע או מחפש/ת בעל/ת מקצוע בכל תחום שהוא, עם יותר מ-60 קטגוריות שונות. ניתן להוריד את האפליקציה באפסטור או גוגל פליי</string>
+    <string name="home">בית</string>
+    <string name="cant_fetch_location">לא יכול להביא מיקום</string>
+    <string name="report">להגיש תלונה</string>
+    <string name="select_map">Выберите карту</string>
+    <string name="new_notification">הודעה חדשה</string>
+    <string name="job_post">העבודה פורסמה עבורך</string>
+    <string name="view_lbl">נוף</string>
+
+    <!-- Fingerprint Auth Activity -->
+    <string name="fingerprint_auth_instructions">מקם/מי את האצבע כדי להזדהות</string>
+    <string name="fingerprint_title">אימות טביעת אצבע</string>
+    <string name="fingerprint_msg">האם תרצו להוסיף אימות בטביעת אצבע? אפשרי</string>
+    <string name="google_map">מפות גוגל</string>
+    <string name="waze_map">מפות ווייז</string>
+
+    <!-- User Type -->
+    <string name="lbl_professional_selection">בחר/י זאת אם את/ה בעל/ת מקצוע</string>
+    <string name="lbl_customer_selection">בחר/י זאת אם את/ה לקוח</string>
+    <string name="lbl_professional_sub_selection">הירשם/מי ולקוחות יוכלו למצוא אתכם</string>
+    <string name="lbl_customer_sub_selection">הירשם/מי בחינם ותוכלו לאתר בעלי מקצוע בסביבתכם</string>
+
+    <!-- Professional Type -->
+    <string name="lbl_professional_sole">האם את/ה עצמאי/ת בעל/ת עסק פרטי?</string>
+    <string name="lbl_professional_agent">האם את/ה מעסיק/ה המעסיק/ה בעלי מקצוע נוספים?</string>
+    <string name="lbl_choose">בחר/י מסך זה</string>
+
+    <!-- Login Activity -->
+    <string name="signup">הירשם/מי</string>
+    <string name="lbl_already_verify">אם את/ה כבר משתמש/ת מאומת/ת אנא היכנס/י כאן</string>
+    <string name="user_name_email">שם משתמש(Email)</string>
+    <string name="password">סיסמא</string>
+    <string name="login">היכנס/י LOGIN</string>
+    <string name="forgot_password"><u>שכחתי סיסמא</u></string>
+    <string name="lbl_social">או היכנס/י דרך חשבון ברשת החברתית</string>
+    <string name="msg_email_validation">נא להזין שם משתמש Email</string>
+    <string name="msg_password_validation">נא להזין סיסמא</string>
+    <string name="msg_facebook_login_error">אופס.. לא הצלחנו לקבל את המידע. אנא שנו את הגדרות הפרטיות ונסו שוב</string>
+    <string name="msg_facebook_login_failed">שגיאה. נסו להיכנס עם כתובת האימייל</string>
+    <string name="msg_googleapi_not_connect">קוד גוגל לא מחובר</string>
+    <string name="msg_google_login_failed">טעות בכניסה</string>
+    <string name="msg_network_error">תקלה ברשת</string>
+    <string name="msg_finger_print_not_support">מכשירכם לא תומך באימות עם טביעת אצבע</string>
+    <string name="msg_enable_finger_permission">אנא הפעילו אימות באמצעות טביעת אצבע</string>
+    <string name="msg_no_finger_config">ההגדרה לאימות בטביעת אצבע ריקה, אנא הזינו לפחות טביעת אצבע אחת בהגדרות</string>
+    <string name="msg_lock_security">אנא אפשר אבטחת מסך נעילה בהגדרות המכשיר שלך</string>
+    <string name="finger_auth_error">שגיאת אימות</string>
+    <string name="finger_auth_failed">אימות נכשל</string>
+    <string name="finger_auth_help">עזרה באימות</string>
+    <string name="finger_auth_success">הצלחה אימות!</string>
+    <string name="save_and_next">שמור והבא</string>
+    <string name="signup_lbl_msg">לפני השימוש באפליקציה, אנא מלא את המידע שלהלן</string>
+    <string name="search_location">חיפוש מיקום</string>
+    <string name="address">כתובת</string>
+    <string name="login_with_touch">או התחבר באמצעות מזהה מגע</string>
+
+    <!-- Sing up Activity -->
+    <string name="lbl_quick_register">הרשמה מהירה</string>
+    <string name="email">אימייל</string>
+    <string name="male">זָכָר</string>
+    <string name="female">נקבה</string>
+    <string name="name">שם</string>
+    <string name="first_name">שם פרטי</string>
+    <string name="last_name">שם משפחה</string>
+    <string name="phone_number">מספר טלפון</string>
+    <string name="enter_password">הזן את הסיסמה</string>
+    <string name="service_name">שם השירות</string>
+    <string name="enter_service_name">הזן את שם השירות</string>
+    <string name="service_and_branch">מילת מפתח / סניף שירות</string>
+    <string name="enter_keyword">הכנס מילת מפתח</string>
+    <string name="address_location">כתובת / מיקום</string>
+    <string name="enter_address">הכנס כתובת</string>
+    <string name="policy_one">אני מסכים ומקבל את</string>
+    <string name="policy_two">מדיניות פרטיות</string>
+    <string name="policy_three">וה</string>
+    <string name="policy_four">תנאי שימוש</string>
+    <string name="submit">שלח</string>
+    <string name="submit_review">הגיש ביקורת</string>
+    <string name="submited_review">ביקורת הוגשה!</string>
+    <string name="msg_review_submitted">ביקרת כבר ביקורת!</string>
+    <string name="msg_sms_info">תקבל sms או קוד דוא\"ל ...</string>
+    <string name="from_camera">מהמצלמה</string>
+    <string name="camera_roll">מגליל המצלמה</string>
+    <string name="cancel">בטל</string>
+    <string name="add_photo">הוסף תמונה</string>
+    <string name="select_file">בחר קובץ</string>
+    <string name="permission_denied">ההרשאה נדחתה</string>
+    <string name="upload_photo">מעלה תמונה ...</string>
+    <string name="please_wait">המתן בבקשה…</string>
+    <string name="service_time_out">פסק זמן בשרת. בבקשה נסה שוב מאוחר יותר.</string>
+    <string name="ok">בסדר</string>
+    <string name="msg_gender_validation">בחר מין</string>
+    <string name="msg_fname_validation">אנא הזן את השם הפרטי</string>
+    <string name="msg_lname_validation">אנא הזן את שם המשפחה</string>
+    <string name="msg_phone_validation">אנא הזן את מספר הטלפון</string>
+    <string name="msg_password_minimum_validation">דרוש סיסמא שמונה תווים לפחות</string>
+    <string name="msg_address">אנא הכנס כתובת / מיקום</string>
+    <string name="msg_address_validation">אנא הכנס כתובת</string>
+    <string name="msg_service_name">אנא הזן את שם השירות</string>
+    <string name="search_your_profession">הקלד / חפש במקצוע שלך</string>
+    <string name="type_your_skill">הקלד את המיומנות שלך</string>
+    <string name="add_keyword_skill">הקלד מילות מפתח ומיומנויות</string>
+    <string name="welcome">ברוך הבא</string>
+    <string name="msg_profession_validation">המקצוע שלך נדרש</string>
+    <string name="company_name">שם החברה</string>
+    <string name="unable_signup">הסוכנות לא יכולה להתחבר באמצעות חברתיות</string>
+
+    <!-- Verify Activity -->
+    <string name="verification_coe_validation">אנא הכנס קוד אימות</string>
+    <string name="verification_code">קוד אימות</string>
+    <string name="sms_verification_code">קוד אימות SMS</string>
+    <string name="email_verification_code">קוד אימות דוא\"ל</string>
+    <string name="add_sms_verification_code">הוסף קוד אימות SMS</string>
+    <string name="add_email_verification_code">הוסף קוד אימות דוא\"ל</string>
+    <string name="v_code">שלח שוב את קוד אימות ה- SMS</string>
+    <string name="ve_code">שלח שוב את קוד אימות הדוא\"ל</string>
+    <string name="or">או</string>
+    <string name="confirmation">אִשׁוּר</string>
+    <string name="conform_msg">האם ברצונך לשלוח קוד באותו מספר נייד?</string>
+    <string name="enter_new_mobile">הזן מספר טלפון נייד חדש</string>
+    <string name="validation_new_mobile_msg">הזן מספר טלפון נייד חדש</string>
+
+    <!-- Navigation Menu-->
+    <string name="payment">תַשְׁלוּם</string>
+    <string name="your_jobs">המשרות שלך</string>
+    <string name="coupon">קוּפּוֹן</string>
+    <string name="favorites">מועדפים</string>
+    <string name="inbox">תיבת הדואר הנכנס</string>
+    <string name="wallet">ארנק</string>
+    <string name="invite">שתף</string>
+    <string name="settings">הגדרות</string>
+    <string name="help">עזרה</string>
+    <string name="logout">התנתק</string>
+    <string name="manage_service">עריכת שירות</string>
+    <string name="filter">סנן</string>
+    <string name="dispatch">לְשַׁגֵר</string>
+    <string name="job_rate">שיעור משרה</string>
+
+    <!-- Payment Activity -->
+    <string name="case_pay">случай</string>
+    <string name="paypal">Paypal</string>
+    <string name="other">אחר</string>
+    <string name="save">שמור</string>
+    <string name="save_send">שמור ושלח</string>
+
+    <!-- Your Jobs Activity -->
+    <string name="pending">ממתין ל</string>
+    <string name="new_status">חדש</string>
+    <string name="ongoing">מתמשך</string>
+    <string name="upcomming">מתקרב</string>
+    <string name="completed">הושלם</string>
+    <string name="rejected">נִדחֶה</string>
+    <string name="no_job_found">לא נמצאו משרות</string>
+    <string name="payment_pending">תשלום בהמתנה</string>
+
+    <!-- Create Job Activity -->
+    <string name="create_job">צור עבודה</string>
+    <string name="select_category">בחר קטגוריה</string>
+    <string name="select_professional">בחר מקצוען</string>
+    <string name="selected_professional">איש מקצוע נבחר</string>
+    <string name="select_date">בחר תאריך</string>
+    <string name="select_time">בחר זמן</string>
+    <string name="select_location">תבחר מיקום</string>
+    <string name="job_detail">פרטי עבודה</string>
+    <string name="job_note">הערות עבודה</string>
+    <string name="msg_category_validation">אנא בחר קטגוריה</string>
+    <string name="msg_professional_validation">אנא בחר איש מקצוע</string>
+    <string name="msg_date_validation">אנא בחר תאריך</string>
+    <string name="msg_time_validation">אנא בחר שעה</string>
+    <string name="msg_location_validation">אנא בחר מיקום</string>
+    <string name="msg_job_validation">אנא הכנס פרטי עבודה</string>
+    <string name="loc_not_found">המיקום לא נמצא</string>
+    <string name="type_address">הקלד כתובת</string>
+    <string name="cal_event_title">בחר חשבון לסנכרון לוח השנה של google</string>
+
+    <!-- Coupon Activity -->
+    <string name="no_coupon">לא נוסף שובר</string>
+    <string name="lbl_add_coupon">הוסף קופון</string>
+    <string name="enter_coupon">הכנס קוד קופון</string>
+    <string name="invalid_coupon">קופון לא חוקי!</string>
+
+    <!-- Forget Password -->
+    <string name="no_data_found">לא נמצאו נתונים</string>
+    <string name="enter_email">הזן מזהה דוא\"ל</string>
+    <string name="send">לִשְׁלוֹחַ</string>
+    <string name="msg_email_invalid">מזהה דוא\"ל לא חוקי</string>
+
+    <!-- Chat Activity-->
+    <string name="write_msg">כתוב הודעה…</string>
+    <string name="phone_not_found">מספר הנייד לא נמצא</string>
+    <string name="msg_validation">אנא כתוב הודעה</string>
+    <string name="pick_from">לאסוף מ</string>
+    <string name="no_msg_found">לא נמצאה הודעה</string>
+
+    <!-- Profile Activity & Edit-->
+    <string name="profile">פרופיל</string>
+    <string name="edit">עריכה</string>
+    <string name="edit_profile">עריכת פרופיל</string>
+    <string name="email_address">כתובת דואר אלקטרוני</string>
+    <string name="dob">תאריך לידה  (YYYY-MM-DD)</string>
+    <string name="select_gender">בחר/י מגדר</string>
+    <string name="msg_fname">נא להזין שם פרטי</string>
+    <string name="msg_dob_validation">נא לבחור תאריך לידה</string>
+    <string name="invalid_image_size">גודל תמונה לא תקין</string>
+    <string name="not_applicable">לא זמין</string>
+    <string name="msg_company_validation">נא להזין שם חברה</string>
+    <string name="basic_info">מידע בסיסי</string>
+    <string name="basic_and_review">דירוג וחוות דעת</string>
+    <string name="phone">טלפון</string>
+    <string name="gender">מגדר</string>
+    <string name="service">מקצוע/שירות</string>
+    <string name="average_rating">דירוג ממוצע</string>
+    <string name="reviews">חוות דעת</string>
+
+    <!-- Private Message -->
+    <string name="message">הודעות</string>
+
+    <!-- Account Setting Activity-->
+    <string name="enter_current_pwd">נא להזין סיסמא קיימת, ישנה</string>
+    <string name="enter_new_pwd">נא להזין סיסמא חדשה</string>
+    <string name="enter_confirm_pwd">נא לאשר סיסמא חדשה</string>
+    <string name="alert">התראה</string>
+    <string name="msg_logout">האם אתה בטוח שברצונך להתנתק?</string>
+    <string name="msg_current_pwd_validation">אנא הכנס את הסיסמה הנוכחית</string>
+    <string name="msg_new_pwd_validation">אנא הזן סיסמא חדשה</string>
+    <string name="msg_new_pwd_minimum_required">לפחות שמונה תווים הנדרשים עבור סיסמא חדשה</string>
+    <string name="msg_confirm_pwd_validation">אנא הכנס סיסמת אישור</string>
+    <string name="msg_pwd_not_match">אשר שהסיסמה אינה תואמת</string>
+    <string name="select_lang">בחר שפה</string>
+    <string name="default_nav_map">מפת ניווט ברירת מחדל</string>
+    <string name="book">סֵפֶר</string>
+    <string name="post_a_job">לפרסם עבודה</string>
+    <string name="call">התקשרו</string>
+    <string name="search_here">חפש כאן ..</string>
+    <string name="find_direction">מוצא כיוון ..!</string>
+    <string name="msg_origin_address">אנא הכנס את כתובת המקור!</string>
+    <string name="msg_destination_address">אנא הכנס את כתובת היעד!</string>
+
+    <!-- Customer Home -->
+    <string name="location_not_found">Location not found</string>
+    <string name="search_using_location">Search using location</string>
+    <string name="find_professional">חפש/י בעל/ת מקצוע, הקלידו איזושהי מילת מפתח</string>
+
+    <!-- Professional Home Activity -->
+    <string name="occupied">תפוס</string>
+    <string name="on_the_way">בדרך ללקוח</string>
+    <string name="free">פנוי</string>
+
+    <!-- Job Rate Activity -->
+    <string name="basic_rate">תעריף בסיסי התחלתי</string>
+    <string name="basic_rate_two">תעריף בסיס התחלתי</string>
+    <string name="hour_rate">תעריף לשעה</string>
+    <string name="tex_rate">מע"מ</string>
+
+    <!-- Dispatch Activity -->
+    <string name="upgrade">שדרג</string>
+    <string name="msg_upgrade">אתה צריך לשדרג לזהב כדי להשתמש באפשרות</string>
+    <string name="upgrade_now">שדרג עכשיו!</string>
+
+    <!-- Filter Activity -->
+    <string name="lbl_show_on_map">הצג רק אותי על המפה</string>
+    <string name="save_continue">שמור והמשך</string>
+
+    <!-- Add Service Activity -->
+    <string name="price">מחיר</string>
+    <string name="add_keyword">הוסף מילת מפתח</string>
+    <string name="add">הוסף</string>
+    <string name="edit_service">שירות עריכה</string>
+    <string name="add_service">הוסף שירות</string>
+    <string name="msg_keyword_validation">אנא הוסף מילת מפתח</string>
+    <string name="msg_service_price_validation">אנא הוסף מחיר שירות</string>
+    <string name="msg_invalid_price">מחיר לא חוקי</string>
+    <string name="no">לא</string>
+    <string name="yes">כן</string>
+
+    <!-- Job Detail Activity -->
+    <string name="customer_detail">פרטי לקוח</string>
+    <string name="professional_detail">פרטים מקצועיים</string>
+    <string name="job_id">מזהה משרה</string>
+    <string name="job_date">תאריך הג\'וב</string>
+    <string name="job_date_and_time">תאריך ושעה לעבודה</string>
+    <string name="started_job_At">החל את איוב בשעה</string>
+    <string name="completed_job_At">ג\'וב סיים ב</string>
+    <string name="job_time">זמן עבודה</string>
+    <string name="job_location">מיקום העבודה</string>
+    <string name="job_status">מצב עבודה</string>
+    <string name="job_status_new">מצב עבודה:</string>
+    <string name="job_remarks">הערות עבודה</string>
+    <string name="job_review_and_ratings">סקירה ודירוגים</string>
+    <string name="accept">אשר</string>
+    <string name="reject">בטל</string>
+    <string name="rating_and_review">דירוג וביקורת</string>
+    <string name="add_review">הוסף ביקורת</string>
+    <string name="add_rating">הוסף דירוג</string>
+    <string name="create_invoice">צור חשבונית</string>
+    <string name="view_invoice">הצג חשבונית</string>
+    <string name="give_rating">דרג</string>
+    <string name="edit_review">ערוך חוות דעת</string>
+    <string name="start_job">התחל איוב</string>
+    <string name="arrived">הגיע</string>
+    <string name="navigate_me">נווט אותי</string>
+    <string name="complete_job">ג\'וב שלם</string>
+    <string name="cash_payment_conform">אישור תשלום</string>
+    <string name="cash_payment_conform_msg">האם אתה מקבל מזומן מלקוח?</string>
+    <string name="make_payment">לשלם</string>
+    <string name="track">מסלול</string>
+    <string name="track_map">עקוב אחר מפה</string>
+    <string name="view_in_map">הצג על המפה</string>
+    <string name="ride_info_not_found">מידע על הרכיבה לא נמצא</string>
+
+    <!-- Create Invoice -->
+    <string name="sent_to_customer">שלח ללקוח</string>
+    <string name="basic_rate_single">דירוג בסיסי</string>
+    <string name="work_hours">שעות עבודה (HH: מ\"מ)</string>
+    <string name="part_name">שם החלקים</string>
+    <string name="parts_rate">שיעור חלק</string>
+    <string name="parts_drives">חלקים / כוננים</string>
+    <string name="discount">הנחה</string>
+    <string name="tax">מַס</string>
+    <string name="notes">הערות:</string>
+    <string name="msg_basic_rate_validation">אנא הכנס את התעריף הבסיסי</string>
+    <string name="msg_hour_rate_validation">אנא הכנס תעריף שעה</string>
+    <string name="msg_work_hour_validation">אנא הכנס את שעות העבודה</string>
+    <string name="msg_part_validation">אנא הזן את שם החלק</string>
+    <string name="msg_part_rate_validation">אנא הכנס את שיעור החלקים</string>
+    <string name="msg_tax_validation">אנא הזן את המס</string>
+
+    <!-- View invoice -->
+    <string name="pay">נא לשלם</string>
+    <string name="job_booking_id">Job Booking Id</string>
+    <string name="working_hour">שעות עבודה</string>
+    <string name="working_hour_rate">תעריף שעת עבודה</string>
+    <string name="tax_rate">מע"מ</string>
+    <string name="tip">טיפ</string>
+    <string name="total">סה"כ</string>
+    <string name="grand_total">סה"כ לתשלום</string>
+    <string name="payment_method">אמצעי תשלום</string>
+    <string name="subtotal">סיכום ביניים</string>
+    <string name="ad_tip">הוספת טיפ לבעל/ת המקצוע</string>
+    <string name="tip_msg">טיפ לבעל/ת המקצוע</string>
+    <string name="tip_amount">סכום הטיפ</string>
+    <string name="pay_by">נא לשלם באמצעות</string>
+    <string name="payment_canceled">תשלום בוטל ע"י המשתמש/ת</string>
+    <string name="lbl_not_payment_option">נראה שבעל/ת המקצוע לא בחר/ה באמצעי התשלום המועדף. נא ליצור קשר עם בעל המקצוע לביצוע התשלום</string>
+
+    <!-- Rating and Review -->
+    <string name="rating_msg_one">אנו מודים לכם שהשתמשתם ביישום. נשמח אם תשתפו את היישום עם חברים ובני משפחה דרך כפתור השיתוף בהגדרות</string>
+    <string name="rating_msg_two">דרג/י את בעל/ת המקצוע ו/או הוספ/הוסיפי למועדפים</string>
+    <string name="rating_msg_two_for_customer">דרג/י את הלקוח/ה ו/או הוספ/הוסיפי למועדפים</string>
+    <string name="rating_validation">נא להוסיף דירוג</string>
+    <string name="review_validation">נא להוסיף חוות דעת</string>
+    <string name="add_prof_to_fav">הוסף את בעל המקצוע למועדפים</string>
+    <string name="add_cus_to_fav">הוסף את הלקוח למועדפים</string>
+    <string name="you_choose_to_cash">בחרת לשלם במזומן</string>
+    <string name="please_pay">נא לשלם</string>
+    <string name="cash_to_driver">במזומן לבעל המקצוע</string>
+    <string name="comment_here">הערות כאן</string>
+
+    <!-- Search Service-->
+    <string name="search_service">חפש/י נותני שירות</string>
+    <string name="no_search_result_found">אין תוצאת חיפוש</string>
+    <string name="msg_one">אנא לחץ למטה כדי להוסיף</string>
+    <string name="msg_two">כשירות חדש.</string>
+
+    <!-- Profile Detail Three -->
+    <string name="i_accept">אני מאשר/ת :</string>
+    <string name="cash">מזומן</string>
+    <string name="my">שלי</string>
+    <string name="id">תעודת זהות:</string>
+    <string name="lbl_papal">אם אתה מקבל גם PayPal, לקוחות יוכלו לשלם לך באמצעות PayPal.</string>
+    <string name="silver">כסף</string>
+    <string name="gold">זהב</string>
+    <string name="lbl_msg_silver">בסיסי עם אפשרויות סטנדרטיות, מתאים לאיש מקצוע.</string>
+    <string name="msg_payment_mode_validation">בחר לפחות מצב תשלום אחד</string>
+    <string name="msg_paypal_validation">אנא הכנס את מזהה ה- PayPal</string>
+    <string name="msg_paypal_invalid">אנא הכנס זיהוי PayPal חוקי</string>
+    <string name="msg_membership_validation">בחר חברות כסף או זהב</string>
+    <string name="monthly">יַרחוֹן</string>
+    <string name="yearly">שְׁנָתִי</string>
+    <string name="my_paypal_id">תעודת הזהות של PayPal שלי</string>
+    <string name="basic_with_minimum">בסיסי עם מינימום</string>
+    <string name="offer">הַצָעָה</string>
+    <string name="for_lbl">ל</string>
+    <string name="year">שנה</string>
+    <string name="months_free">חודשים חינם</string>
+    <string name="for_one">בשביל 1</string>
+    <string name="offer_for">הצעה ל -12</string>
+    <string name="dialog_msg_one">יש לך אפשרות לתכנית חברות כסף. אנא שלם</string>
+    <string name="dialog_msg_two">באמצעות אפשרויות להלן.</string>
+    <string name="registration_fee">דמי הרשמה</string>
+    <string name="registration_fee_msg">זהו תשלום חד פעמי שאתה צריך לשלם לפני שתתחיל להשתמש באפליקציה זו.</string>
+    <string name="validation_registration_fee_msg">דמי הרשמה לא נמצאו</string>
+
+    <!-- Professional Signup step last-->
+    <string name="subscription_fee">דמי מנוי</string>
+    <string name="validation_msg_of_subscription">פרטי המינוי לא נמצאו</string>
+
+    <!-- GPS disable activity -->
+    <string name="loc_service_off">שירות מיקום כבה</string>
+    <string name="lbl_gps">נראה כי הגדרות הפרטיות שלך מונעות מאיתנו לגשת למיקום שלך כדי למצוא שירותים. תוכל לתקן זאת על ידי ביצוע הפעולות הבאות:</string>
+    <string name="step_one">1. סגור את היישום הזה.</string>
+    <string name="step_two">2. פתח את אפליקציית ההגדרות.</string>
+    <string name="step_three">3. גלול לתחתית ובחר באפליקציה זו ברשימה.</string>
+    <string name="step_four">4. הפעל את המיקום.</string>
+    <string name="step_five">5. פתח את היישום הזה ונסה שוב.</string>
+    <string name="turn_on">הפעל</string>
+
+    <!-- Payment -->
+    <string name="select_payment">תשלום באמצעות</string>
+
+    <!-- Tracking-->
+    <string name="driver_arrival_at_loc">נותן השירות הגיע ליעד</string>
+    <string name="eta">זמן הגעה משוער</string>
+
+    <!-- Account Setting fragment-->
+    <string name="account_setting">הגדרות חשבון</string>
+    <string name="change_pwd">שנה סיסמא</string>
+    <string name="default_navigation_system">ניווט - ברירת מחדל</string>
+    <string name="change_language">שנה שפה</string>
+
+    <string-array name="selectionOfGender">
+        <item>בחר/י מגדר</item>
+        <item>גבר</item>
+        <item>אשה</item>
+    </string-array>
+</resources>

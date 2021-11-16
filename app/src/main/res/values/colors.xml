@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="c_blue">#35559f</color>
+    <color name="c_light_grey">#bcbcbc</color>
+    <color name="c_white">#ffffff</color>
+    <color name="c_btn_blue">#007aff</color>
+    <color name="c_btn_blue1">#FF1538C6</color>
+    <color name="gray">#bcbcbc</color>
+    <color name="off_white">#F5F5F5</color>
+    <color name="off_white_two">#EFEEEE</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#930014</color>
+    <color name="colorYellow">#feb455</color>
+    <color name="colorGreen">#2e7d2e</color>
+
+    <color name="colorChat">#d8e5f1</color>
+    <color name="colorTitle">#06578f</color>
+    <color name="colorBackgraundGray">#e1e1e1</color>
+    <color name="grayTextColor">#717171</color>
+
+    <!--Crop Activity Color-->
+    <color name="base">#FFFFFB</color>
+    <color name="frame">#007aff</color>
+    <color name="guide">#aa007aff</color>
+    <color name="overlay">#AA1C1C1C</color>
+    <color name="handle">#007aff</color>
+
+</resources>

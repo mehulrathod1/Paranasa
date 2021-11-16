@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/Parnasa/app/src/main/res/font/roboto.xml" value="0.234375" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/font/roboto_light.xml" value="0.234375" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_add_service.xml" value="0.17844202898550723" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_change_password.xml" value="0.1480978260869565" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_create_invoice.xml" value="0.5" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_invoice.xml" value="0.20416666666666666" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_job_detail.xml" value="0.33" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_job_rate.xml" value="0.20416666666666666" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_new_mobil_detail.xml" value="0.1" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_payment_screen.xml" value="0.16" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_professional_hme.xml" value="0.17844202898550723" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_professional_signup_step_four.xml" value="0.17844202898550723" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_professional_type.xml" value="0.17844202898550723" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_profile.xml" value="0.17844202898550723" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_profile_details_one.xml" value="0.17844202898550723" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_setting_screen.xml" value="0.11956521739130435" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_sign_in.xml" value="0.17844202898550723" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_view_invoice.xml" value="0.20416666666666666" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_view_invoice_new.xml" value="0.20416666666666666" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/activity_web_payment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/content_payment_via.xml" value="0.1" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/content_profile_details_one.xml" value="0.17844202898550723" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/dialog_for_fengerprint_auth.xml" value="0.17844202898550723" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/fragment_customer_home.xml" value="0.17844202898550723" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/fragment_job_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/fragment_job_rate.xml" value="0.20416666666666666" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/layout/toolbar.xml" value="0.11730072463768115" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/menu/menu_crop_new.xml" value="0.20416666666666666" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/menu/menu_customer_nav.xml" value="0.20416666666666666" />
+        <entry key="..\:/Project/Parnasa/app/src/main/res/menu/menu_professional_nav.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

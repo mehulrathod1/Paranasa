@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/c_btn_blue1">
+
+    <TextView
+        android:id="@+id/txt_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:padding="8dp"
+        android:text="@string/logout"
+        android:textAllCaps="false"
+        android:textColor="@color/c_white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/nav_profile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:id="@+id/u_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="User name"
+        android:textAllCaps="false"
+        android:textColor="@color/c_white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linlayRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/u_name"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <RatingBar
+            android:id="@+id/ratingMyReview"
+            style="?attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressTint="@color/c_white"
+            android:stepSize="0.5" />
+
+        <!--<TextView
+            android:textColor="@color/c_white"
+            android:text=" (0.0)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />-->
+
+        <TextView
+            android:id="@+id/txtEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@color/c_white"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:text="@string/edit"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

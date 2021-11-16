@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Job Break Up"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="30dp"
+                android:id="@+id/close"
+                android:layout_marginRight="10dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:background="@android:drawable/ic_menu_close_clear_cancel"
+                android:layout_height="30dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Job Booking ID"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="H000012IN"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center|right"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.4"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Base Rate(Start Rate)"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="$10"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center|right"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.4"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Work Hours"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="3 hours 12mints"
+                android:textSize="14sp"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="H000012IN"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center|right"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.4"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Parts"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:hint="parts"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="$00"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center|right"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Tax"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="$2.80"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center|right"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Tips"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:hint="$10"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center|right"
+                    android:textSize="16sp"
+                    android:background="@android:color/transparent"
+                    android:textColor="@android:color/black"
+                    android:layout_height="45dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/darker_gray"
+            android:layout_height="0.3dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.4"
+                android:gravity="center"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Total (incl. 6% vat, $0.98)"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/c_btn_blue"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="$10"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center|right"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/c_btn_blue"
+                    android:layout_height="45dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Pay By:"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:gravity="center"
+            android:id="@+id/paypal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/pay_bg"
+            android:layout_gravity="center"
+            android:layout_height="45dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:background="@drawable/paypal_p"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="PayPal"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="240dp"
+            android:gravity="center"
+            android:id="@+id/cash"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/pay_bg"
+            android:layout_gravity="center"
+            android:layout_height="45dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:background="@drawable/cash"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Cash"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:gravity="center"
+            android:id="@+id/others"
+            android:layout_marginBottom="10dp"
+
+            android:layout_marginTop="10dp"
+            android:background="@drawable/pay_bg"
+            android:layout_gravity="center"
+            android:layout_height="45dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:background="@drawable/other"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Other"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
